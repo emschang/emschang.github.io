@@ -1,0 +1,1809 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arkfield Theme\n"
+"POT-Creation-Date: 2016-10-17 13:37+0300\n"
+"PO-Revision-Date: 2016-10-17 13:58+0300\n"
+"Last-Translator: \n"
+"Language-Team: Pikarthouse <studio@pikarthouse.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n_noop;_nx;_x;_x:1,2c;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;esc_html_x;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/js/vendor.js:15
+msgid "pointer"
+msgstr ""
+
+#: assets/js/vendor.js:15
+msgid "MSPointer"
+msgstr ""
+
+#: assets/js/vendor.js:15
+msgid "mouse"
+msgstr ""
+
+#: 404.php:8
+msgid "Error 404"
+msgstr "Fehler 404"
+
+#: 404.php:10
+msgid "This page cannot be found"
+msgstr "Diese Seite kann nicht gefunden werden"
+
+#: 404.php:15
+msgid ""
+"The reasons of this error are multiple. We could suggest you couple of these:"
+msgstr ""
+"Die Gründe für diesen Fehler sind mehrere. Wir könnten Ihnen paar von diesen "
+"vorschlagen:"
+
+#: 404.php:17
+msgid ""
+"the page you have requested does not exist anymore, the load time of this "
+"page is too long."
+msgstr ""
+"die von Ihnen angeforderte Seite existiert nicht mehr, die Ladezeit dieser "
+"Seite ist zu lang."
+
+#: 404.php:21 partials/blog/content-none.php:27
+msgid "Go to home page"
+msgstr "Zurück zur Startseite"
+
+#: comments.php:20 comments.php:21 comments.php:22
+msgid "Comments"
+msgstr "Kommentare"
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: footer.php:31
+msgid "Back to top"
+msgstr "Zurück nach oben"
+
+#: header.php:44
+msgid "View cart"
+msgstr "Warenkorb ansehen"
+
+#: includes/src/admin/class-pikart-gallery.php:39
+msgid "Open"
+msgstr "Öffnen"
+
+#: includes/src/admin/class-pikart-gallery.php:40
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: includes/src/admin/post/class-post-config.php:19
+msgid "Audio Post Format"
+msgstr "Audio-Beitragsformat"
+
+#: includes/src/admin/post/class-post-config.php:28
+msgid "Audio Link"
+msgstr "Audio-link"
+
+#: includes/src/admin/post/class-post-config.php:29
+msgid "Insert here the audio link from Media Library"
+msgstr "Fügen Sie hier den Audio-link von der Mediathek ein"
+
+#: includes/src/admin/theme-customizer/class-google-fonts-options.php:100
+msgid "Invalid font. Retype it carefully again."
+msgstr "Ungültige Schriftart. Schreiben Sie es sorgfältig wieder neu."
+
+#: includes/src/admin/theme-customizer/class-google-fonts-options.php:111
+msgid ""
+"Font already exists. See Heading font family / Text font family dropdown-"
+"lists from above"
+msgstr ""
+"Schriftart ist bereits vorhanden. Siehen Sie die Listen von oben mit "
+"Überschriften Schriftart / Schriftart Text"
+
+#: includes/src/admin/theme-customizer/class-google-fonts-options.php:123
+msgid "Please add only one font at once"
+msgstr "Bitte fügen Sie nur eine Schriftart auf einmal hinzu"
+
+#: includes/src/admin/theme-customizer/class-google-fonts-options.php:133
+msgid ""
+"Font was added. See Heading font family / Text font family dropdown-lists "
+"from above"
+msgstr ""
+"Schriftart wurde hinzugefügt. Siehen Sie die Listen von oben mit "
+"Überschriften Schriftart / Schriftart Text"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:50
+msgid "THEME OPTIONS"
+msgstr "Theme Optionen"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:51
+msgid "General theme panel"
+msgstr "Allgemeine Theme Panel"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:55
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:60
+msgid "Header"
+msgstr "Header"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:65
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:70
+msgid "Typography"
+msgstr "Typografie"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:75
+msgid "Diary"
+msgstr "Tagebuch"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:80
+#: includes/src/page-builder/class-page-builder-config.php:42
+#: includes/src/project/class-project-config.php:43
+msgid "Projects"
+msgstr "Projekte"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:85
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:577
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:130
+msgid "Upload your logo"
+msgstr "Bitte laden Sie Ihr Logo hoch"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:131
+msgid "_the dimensions of your logo image are totally up to you"
+msgstr "_die Abmessungen Ihrer Logo-Bild sind völlig bis zu Ihnen"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:137
+msgid "Logo dimension"
+msgstr "Logo Abmessung"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:138
+msgid "_scale your logo image to best fit your site header"
+msgstr ""
+"_bitte skalieren Sie Ihr Logo Bild, um am besten zu Ihren Website-Header"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:154
+msgid "Logo text"
+msgstr "Logo Text"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:155
+msgid "_it will appear in case you do not have an image for your logo"
+msgstr "_es wird erscheinen, falls Sie kein Bild für Ihr Logo haben"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:171
+msgid "Follow our diary"
+msgstr "Folgen Sie unserem Tagebuch"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:172
+msgid "Diary title"
+msgstr "Blog Titel"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:173
+msgid "_insert here the title of your Blog Page"
+msgstr "_Fügen Sie den Titel Ihres Blog Seite hier ein"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:182
+msgid "Posts Speed"
+msgstr "Beiträge Geschwindigkeit"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:183
+msgid "_check this if you want your posts moving faster on Posts Page"
+msgstr ""
+"_bitte überprüfen Sie dies, wenn Sie Ihre Beiträge auf Beiträge Seite "
+"schneller bewegen möchten"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:198
+msgid "Widgets"
+msgstr ""
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:199
+msgid "_choose the number of columns your widgets will best fit in the footer"
+msgstr ""
+"Bitte wählen Sie die Anzahl der Spalten, die Sie für Ihre Fußzeilen wollen."
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:215
+msgid "Copyright text"
+msgstr "Copyright Text"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:232
+msgid "Heading font family"
+msgstr "Überschriften Schriftart"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:295
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:348
+msgid "Line height"
+msgstr "Zeilenhöhe"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:317
+msgid "Text font family"
+msgstr "Schriftart Text"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:330
+msgid "Font size (px)"
+msgstr "Schriftgröße (px)"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:364
+msgid "Letter spacing (px)"
+msgstr "Zeichenabstand (px)"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:380
+msgid "Google Fonts"
+msgstr "Google Schriftarten"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:381
+msgid ""
+"_add your custom Google Font in the field below Ex: Ubuntu"
+"+Mono:400,400italic,700"
+msgstr ""
+"_bitte fügen Sie Ihre benutzerdefinierten Google Schrift in das Feld unten "
+"Ex: Ubuntu+Mono:400,400italic,700"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:388
+msgid "Add font"
+msgstr "Schriftart hinzufügen"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:403
+msgid "Headings Color"
+msgstr "Überschriften Farbe"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:425
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:436
+msgid "Feature Color"
+msgstr "Feature Farbe"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:544
+msgid "Lazy Load"
+msgstr ""
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:545
+msgid "_check this if you want your projects to load lazily"
+msgstr ""
+"_überprüfen Sie bitte dies, wenn Sie Ihre Ihre Projekte zu faul laden möchten"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:559
+msgid "Google Maps API Key"
+msgstr ""
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:562
+msgid ""
+"_to use Google Maps you must authenticate your application with an API key"
+msgstr ""
+"_um Google Maps zu benutzen, müssen Sie Ihre Applikation mit einem API-"
+"Schlüssel authentifizieren"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:563
+msgctxt "google-maps"
+msgid "Get a key"
+msgstr "API Schlüssel erhalten"
+
+#: includes/src/admin/theme-customizer/class-theme-options-config.php:578
+msgid "_insert your custom CSS below"
+msgstr "_bitte fügen Sie Ihre benutzerdefinierte CSS unten ein"
+
+#: includes/src/misc/class-back-compat.php:38
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: includes/src/misc/class-back-compat.php:55
+#, php-format
+msgid "Category: %s"
+msgstr "Kategorie: %s"
+
+#: includes/src/misc/class-back-compat.php:57
+#, php-format
+msgid "Tag: %s"
+msgstr "Schlagwort: %s"
+
+#: includes/src/misc/class-back-compat.php:59
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: includes/src/misc/class-back-compat.php:62
+#, php-format
+msgid "Year: %s"
+msgstr "Jahr: %s"
+
+#: includes/src/misc/class-back-compat.php:63
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/src/misc/class-back-compat.php:65
+#, php-format
+msgid "Month: %s"
+msgstr "Monat: %s"
+
+#: includes/src/misc/class-back-compat.php:66
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: includes/src/misc/class-back-compat.php:68
+#, php-format
+msgid "Day: %s"
+msgstr "Tag: %s"
+
+#: includes/src/misc/class-back-compat.php:69
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: includes/src/misc/class-back-compat.php:72
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Kurzmitteilung"
+
+#: includes/src/misc/class-back-compat.php:74
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerie"
+
+#: includes/src/misc/class-back-compat.php:76
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Bild"
+
+#: includes/src/misc/class-back-compat.php:78
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Video"
+
+#: includes/src/misc/class-back-compat.php:80
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Zitat"
+
+#: includes/src/misc/class-back-compat.php:82
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Link"
+
+#: includes/src/misc/class-back-compat.php:84
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statusmiteilung"
+
+#: includes/src/misc/class-back-compat.php:86
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/src/misc/class-back-compat.php:88
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chatprotokoll"
+
+#: includes/src/misc/class-back-compat.php:91
+#, php-format
+msgid "Archives: %s"
+msgstr "Archive: %s"
+
+#: includes/src/misc/class-back-compat.php:95
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: includes/src/misc/class-back-compat.php:98
+msgid "Archives"
+msgstr "Archive"
+
+#: includes/src/misc/class-back-compat.php:143
+msgctxt "previous post"
+msgid "Previous"
+msgstr "Zurück"
+
+#: includes/src/misc/class-back-compat.php:144
+msgctxt "next post"
+msgid "Next"
+msgstr "Nächster"
+
+#: includes/src/misc/class-back-compat.php:145
+#: includes/src/misc/class-back-compat.php:213
+msgid "Posts navigation"
+msgstr "Beitragsnavigation"
+
+#: includes/src/misc/class-pixcodes.php:117
+msgctxt "Button shortcode"
+msgid "Open in a new tab"
+msgstr "In neuem Tab öffnen"
+
+#: includes/src/page-builder/class-page-builder-config.php:38
+msgid "Content type"
+msgstr "Inhaltstyp"
+
+#: includes/src/page-builder/class-page-builder-config.php:39
+msgid "Choose what would you like to insert in this section"
+msgstr "Bitte wählen Sie was möchten Sie in diesem Abschnitt einfügen"
+
+#: includes/src/page-builder/class-page-builder-config.php:41
+msgid "Default"
+msgstr "Standard"
+
+#: includes/src/page-builder/class-page-builder-config.php:43
+msgid "Posts"
+msgstr "Beiträge"
+
+#: includes/src/page-builder/class-page-builder-config.php:44
+msgid "Contact Map"
+msgstr "Kontakt Karte"
+
+#: includes/src/page-builder/class-page-builder-config.php:45
+#: includes/src/page-builder/class-page-builder-config.php:66
+#: includes/src/project/class-project-config.php:112
+msgid "Gallery"
+msgstr "Galerie"
+
+#: includes/src/page-builder/class-page-builder-config.php:54
+#: includes/src/page-builder/class-page-builder-config.php:71
+msgid "Display"
+msgstr "Anzeige"
+
+#: includes/src/page-builder/class-page-builder-config.php:55
+msgid "Select the way the gallery will be displayed."
+msgstr "Wählen Sie die Art und Weise die Galerie angezeigt wird."
+
+#: includes/src/page-builder/class-page-builder-config.php:57
+#: includes/src/page-builder/class-page-builder-config.php:75
+msgid "Fullscreen Slider"
+msgstr "Vollbild-Slider"
+
+#: includes/src/page-builder/class-page-builder-config.php:58
+msgid "Two Columns"
+msgstr "Zwei Spalten"
+
+#: includes/src/page-builder/class-page-builder-config.php:59
+msgid "Three Columns"
+msgstr "Drei Spalten"
+
+#: includes/src/page-builder/class-page-builder-config.php:60
+#: includes/src/page-builder/class-page-builder-config.php:74
+msgid "Fullgrid"
+msgstr ""
+
+#: includes/src/page-builder/class-page-builder-config.php:72
+msgid ""
+"Select the way the projects will be displayed. The last 2 options, Classic "
+"and Multiple, have PortfolioFilter feature."
+msgstr ""
+"Bitte wählen Sie, wie die Projekte angezeigt werden. Die letzten 2 Optionen, "
+"Klassisch und Mehrfach, haben PortfolioFilter Funktion."
+
+#: includes/src/page-builder/class-page-builder-config.php:76
+msgid "Classic"
+msgstr "Klassisch"
+
+#: includes/src/page-builder/class-page-builder-config.php:77
+msgid "Multiple"
+msgstr "Mehrfach"
+
+#: includes/src/page-builder/class-page-builder-config.php:86
+msgid "Google Maps latitude"
+msgstr "Google Map Breitengrad"
+
+#: includes/src/page-builder/class-page-builder-config.php:87
+msgid "Paste here the latitude from Google Maps."
+msgstr "Bitte fügen Sie hier den Breitengrad von Google Maps ein."
+
+#: includes/src/page-builder/class-page-builder-config.php:97
+msgid "Google Maps longitude"
+msgstr "Google Map Längengrad"
+
+#: includes/src/page-builder/class-page-builder-config.php:98
+msgid "Paste here the longitude from Google Maps."
+msgstr "Bitte fügen Sie hier den Längengrad von Google Maps ein."
+
+#: includes/src/page-builder/class-page-builder-config.php:108
+msgid "Projects categories"
+msgstr "Projekte-Kategorien"
+
+#: includes/src/page-builder/class-page-builder-config.php:109
+msgid "Select your categories."
+msgstr "Wählen Sie Ihre Kategorien."
+
+#: includes/src/page-builder/class-page-builder-config.php:118
+msgid "Projects list"
+msgstr "Projektliste"
+
+#: includes/src/page-builder/class-page-builder-config.php:119
+msgid "Select your projects. First choose the categories"
+msgstr "Wählen Sie Ihre Projekte. Wählen Sie zuerst die Kategorien"
+
+#: includes/src/page-builder/class-page-builder-config.php:126
+msgid "Number of projects"
+msgstr "Anzahl der Projekte"
+
+#: includes/src/page-builder/class-page-builder-config.php:127
+msgid ""
+"Select the number of projects to display. It refers to the latest projects, "
+"ordered by the time of publishing."
+msgstr ""
+"Wählen Sie die Anzahl der Projekte angezeigt. Es bezieht sich auf die "
+"neuesten Projekte, geordnet nach dem Zeitpunkt der Veröffentlichung."
+
+#: includes/src/page-builder/class-page-builder-config.php:136
+msgid "Number of posts"
+msgstr "Anzahl der Beiträge"
+
+#: includes/src/page-builder/class-page-builder-config.php:137
+msgid ""
+"Select the number of posts to display. It refers to the latest posts, "
+"ordered by the time of publishing."
+msgstr ""
+"Wählen Sie die Anzahl der anzuzeigenden Beiträge. Es bezieht sich auf die "
+"neuesten Beiträge, geordnet nach dem Zeitpunkt der Veröffentlichung."
+
+#: includes/src/page-builder/class-page-builder-config.php:146
+msgid "Projects speed"
+msgstr "Projektgeschwindigkeit"
+
+#: includes/src/page-builder/class-page-builder-config.php:147
+msgid "Check if you want the projects to move during scrolling"
+msgstr "Überprüfen Sie bitte, ob Sie die Projekte wollen beim Bildlauf bewegen"
+
+#: includes/src/page-builder/class-page-builder-config.php:153
+msgid "Posts speed"
+msgstr "Beiträge Geschwindigkeit"
+
+#: includes/src/page-builder/class-page-builder-config.php:154
+msgid "Check if you want the posts to move during scrolling"
+msgstr "Überprüfen Sie bitte, ob Sie die Beiträge wollen beim Bildlauf bewegen"
+
+#: includes/src/page-builder/class-page-builder-config.php:160
+msgid "Content"
+msgstr "Inhalt"
+
+#: includes/src/page-builder/class-page-builder-config.php:161
+msgid "Use images or shortcodes to further organize your content."
+msgstr ""
+"Bitte verwenden Sie Bilder oder Kurzwahlnummern, um weiter Ihren Inhalt zu "
+"organisieren."
+
+#: includes/src/page-builder/class-page-builder-config.php:170
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/src/page-builder/class-page-builder-config.php:171
+msgid "Remove section"
+msgstr "Abschnitt entfernen"
+
+#: includes/src/page-builder/class-page-builder-config.php:181
+msgid "Section"
+msgstr "Abschnitt"
+
+#: includes/src/page-builder/class-page-builder-config.php:194
+msgid "Display order"
+msgstr "Auftrag anzeigen"
+
+#: includes/src/page-builder/class-page-builder-config.php:195
+msgid "Select the way the projects are ordered."
+msgstr "Wählen Sie die Art, wie die Projekte bestellt werden."
+
+#: includes/src/page-builder/class-page-builder-config.php:198
+msgid "No order"
+msgstr "Keine Bestellung"
+
+#: includes/src/page-builder/class-page-builder-config.php:199
+msgid "Date ascending"
+msgstr "Datum aufsteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:200
+msgid "Date descending"
+msgstr "Datum absteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:201
+msgid "Title ascending"
+msgstr "Titel aufsteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:202
+msgid "Title descending"
+msgstr "Titel absteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:203
+msgid "Author ascending"
+msgstr "Autor aufsteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:204
+msgid "Author descending"
+msgstr "Autor absteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:205
+msgid "Id ascending"
+msgstr "ID aufsteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:206
+msgid "Id descending"
+msgstr "ID absteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:207
+msgid "Last modified date ascending"
+msgstr "Datum der letzten Änderung aufsteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:208
+msgid "Last modified date descending"
+msgstr "Datum der letzten Änderung absteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:209
+msgid "Parent id ascending"
+msgstr "Übergeordnete Id aufsteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:210
+msgid "Parent id descending"
+msgstr "Übergeordnete Id absteigend"
+
+#: includes/src/page-builder/class-page-builder-config.php:219
+msgid "Add section"
+msgstr "Abschnitt hinzufügen"
+
+#: includes/src/project/class-project-config.php:19
+msgid "projects"
+msgstr "Projekte"
+
+#: includes/src/project/class-project-config.php:20
+msgid "Portfolio projects"
+msgstr "Portfolio Projekte"
+
+#: includes/src/project/class-project-config.php:41
+msgctxt "Post Type General Name"
+msgid "Projects"
+msgstr "Projekte"
+
+#: includes/src/project/class-project-config.php:42
+msgctxt "Post Type Singular Name"
+msgid "Project"
+msgstr "Projekt"
+
+#: includes/src/project/class-project-config.php:44
+msgid "Parent Project:"
+msgstr "Übergeordnete Projekte:"
+
+#: includes/src/project/class-project-config.php:45
+msgid "All Projects"
+msgstr "Alle Projekte"
+
+#: includes/src/project/class-project-config.php:46
+msgid "View Project"
+msgstr "Projekt ansehen"
+
+#: includes/src/project/class-project-config.php:47
+msgid "Add New Project"
+msgstr "Neues Projekt hinzufügen"
+
+#: includes/src/project/class-project-config.php:48
+msgid "New Project"
+msgstr "Neues Projekt"
+
+#: includes/src/project/class-project-config.php:49
+msgid "Add New"
+msgstr "Neue hinzufügen"
+
+#: includes/src/project/class-project-config.php:50
+msgid "Edit Project"
+msgstr "Projekt bearbeiten"
+
+#: includes/src/project/class-project-config.php:51
+msgid "Update Project"
+msgstr "Projekt aktualisieren"
+
+#: includes/src/project/class-project-config.php:52
+msgid "Search Project"
+msgstr "Suche nach Projekt"
+
+#: includes/src/project/class-project-config.php:53
+msgid "No projects found"
+msgstr "Kein Projekt gefunden"
+
+#: includes/src/project/class-project-config.php:54
+msgid "No projects found in Trash"
+msgstr "Kein Projekt im Papierkorb gefunden"
+
+#: includes/src/project/class-project-config.php:76
+msgctxt "Taxonomy General Name"
+msgid "Project Categories"
+msgstr "Projektkategorien"
+
+#: includes/src/project/class-project-config.php:77
+msgctxt "Taxonomy Singular Name"
+msgid "Project Category"
+msgstr "Projekt Kategorie"
+
+#: includes/src/project/class-project-config.php:78
+msgid "Project Categories"
+msgstr "Projektkategorien"
+
+#: includes/src/project/class-project-config.php:79
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: includes/src/project/class-project-config.php:80
+msgid "Parent Category"
+msgstr "Übergeordnete Kategorie"
+
+#: includes/src/project/class-project-config.php:81
+msgid "Parent Category:"
+msgstr "Übergeordnete Kategorie:"
+
+#: includes/src/project/class-project-config.php:82
+msgid "New Category"
+msgstr "Neue Kategorie"
+
+#: includes/src/project/class-project-config.php:83
+msgid "Add New Category"
+msgstr "Neue Kategorie hinzufügen"
+
+#: includes/src/project/class-project-config.php:84
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+#: includes/src/project/class-project-config.php:85
+msgid "View Category"
+msgstr "Kategorie ansehen"
+
+#: includes/src/project/class-project-config.php:86
+msgid "Update Category"
+msgstr "Kategorie aktualisieren"
+
+#: includes/src/project/class-project-config.php:87
+msgid "Separate Categories with commas"
+msgstr "Kategorien mit Kommas trennen"
+
+#: includes/src/project/class-project-config.php:88
+msgid "Search Categories"
+msgstr "Suche nach Kategorien"
+
+#: includes/src/project/class-project-config.php:89
+msgid "Add or remove Categories"
+msgstr "Kategorien hinzufügen oder entfernen"
+
+#: includes/src/project/class-project-config.php:90
+msgid "Popular Categories"
+msgstr "Beliebte Kategorien"
+
+#: includes/src/project/class-project-config.php:91
+msgid "Choose from the most used categories"
+msgstr "Bitte wählen Sie aus den meistverwendeten Kategorien"
+
+#: includes/src/project/class-project-config.php:92
+msgid "Not categories found"
+msgstr "Keine Kategorien gefunden"
+
+#: includes/src/project/class-project-config.php:103
+msgid "Header Slider"
+msgstr "Header Slider"
+
+#: includes/src/project/class-project-config.php:117
+msgid "Title"
+msgstr "Titel"
+
+#: includes/src/project/class-project-config.php:118
+msgid ""
+"Insert your title here. In case you will not mention it, it will be "
+"automatically considered the project title"
+msgstr ""
+"Bitte fügen Sie Ihren Titel hier ein. Falls Sie es nicht erwähnen werden, "
+"wird es als der Projekttitel automatisch betrachtet"
+
+#: includes/src/project/class-project-config.php:123
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: includes/src/setup/class-theme-setup.php:53
+msgid "Primary Menu"
+msgstr "﻿Hauptmenü"
+
+#: includes/src/setup/class-theme-setup.php:54
+msgid "Footer Menu"
+msgstr "Fußzeilenmenü"
+
+#: includes/src/setup/class-theme-setup.php:55
+msgid "Social Links Menu"
+msgstr "Social Links Menü"
+
+#: includes/src/site/blog/class-blog-config.php:15
+msgid "Facebook"
+msgstr ""
+
+#: includes/src/site/blog/class-blog-config.php:16
+msgid "Twitter"
+msgstr ""
+
+#: includes/src/site/blog/class-blog-config.php:17
+msgid "Linkedin"
+msgstr ""
+
+#: includes/src/site/blog/class-blog-manager.php:46
+msgid "Submit"
+msgstr "Absenden"
+
+#: includes/src/site/blog/class-blog-manager.php:48
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+"Dieser Inhalt ist Passwortgeschützt. Um ihn anzuschauen, geben Sie bitte Ihr "
+"Passwort unten ein:"
+
+#: includes/src/site/blog/class-blog-utils.php:60
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#: includes/src/site/blog/class-custom-walker-comment.php:62
+#, php-format
+msgid "%1$s / %2$s"
+msgstr ""
+
+#: includes/src/site/blog/class-custom-walker-comment.php:65
+msgid "edit"
+msgstr "bearbeiten"
+
+#: includes/src/site/blog/class-custom-walker-comment.php:72
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf Moderation."
+
+#: includes/src/site/class-site-customizer.php:35
+msgid "Footer Widget Area"
+msgstr "Fußzeile Widget Bereich"
+
+#: includes/src/site/class-site-customizer.php:37
+msgid "Add widgets here to appear in your footer widget area."
+msgstr ""
+"Bitte fügen Sie Widgets hier, um in Ihre Fußzeile Widget Bereich angezeigt "
+"werden sollen."
+
+#: includes/src/woo-commerce/class-woo-commerce-settings.php:63
+#: includes/src/woo-commerce/class-woo-commerce-settings.php:81
+msgid "Arkfield Options"
+msgstr "Arkfield Optionen"
+
+#: includes/src/woo-commerce/class-woo-commerce-settings.php:68
+msgid "Cart display"
+msgstr "Warenkorb anzeigen"
+
+#: includes/src/woo-commerce/class-woo-commerce-settings.php:69
+msgid "Check this if you want the cart displayed in the header"
+msgstr ""
+"Überprüfen Sie bitte dies, wenn Sie den Warenkorb in der Überschrift "
+"angezeigt werden soll"
+
+#: includes/src/woo-commerce/class-woo-commerce-settings.php:86
+msgid "Products Speed"
+msgstr "Produkte Geschwindigkeit"
+
+#: includes/src/woo-commerce/class-woo-commerce-settings.php:87
+msgid "Check this if you want your products moving faster on Shop Page"
+msgstr ""
+"Überprüfen Sie bitte dies, wenn Sie Ihre Produkte auf Shop-Seite schneller "
+"bewegen wollen"
+
+#: includes/src/woo-commerce/class-woo-commerce-setup.php:185
+msgid "Products"
+msgstr "Produkte"
+
+#: includes/src/woo-commerce/class-woo-commerce-setup.php:190
+msgid "Number of products"
+msgstr "Anzahl der Produkte"
+
+#: includes/src/woo-commerce/class-woo-commerce-setup.php:191
+msgid "Select the number of products to display."
+msgstr "Wählen Sie bitte die Anzahl der Produkte anzuzeigen."
+
+#: includes/src/woo-commerce/class-woo-commerce-setup.php:201
+msgid "Products speed"
+msgstr "Produkte Geschwindigkeit"
+
+#: includes/src/woo-commerce/class-woo-commerce-setup.php:202
+msgid "Check if you want the products to move during scrolling"
+msgstr ""
+"Überprüfen Sie bitte, wenn Sie die Produkte beim Scrollen bewegen wollen"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr "Erforderliche Plugins installieren"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation von Plugin:%s"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "Die Plugin-API hat einen Fehler verursacht."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr "Dieses Thema erfordert folgendes Plugin: %1$s."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "Dieses Thema empfiehlt das folgende Plugin: %1$s."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgstr ""
+"Es tut uns leid, aber Sie haben nicht die richtigen Berechtigungen, um die "
+"%1$s Plugin installieren."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+"Die folgende Plugin muss auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Thema zu sicher zu stellen: %1$s."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr "Es ist eine Aktualisierung verfügbar für: %1$s."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgstr ""
+"Es tut uns leid, aber Sie haben nicht die richtigen Berechtigungen, um die "
+"%1$s Plugin aktualisieren."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "Das folgende erforderliche Plugin ist derzeit inaktiv: %1$s."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "Das folgende empfohlene Plugin ist derzeit inaktiv: %1$s."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgstr ""
+"Es tut uns leid, aber Sie haben nicht die richtigen Berechtigungen, um die "
+"%1$s Plugin aktivieren."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgstr "Installation von Plugin beginnen"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgstr "Aktualisierung von Plugin beginnen"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgstr "Aktivierung von Plugin beginnen"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur erforderliche Plugins Installation"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr "Plugin wurde erfolgreich aktiviert."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:400
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert:"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Keine Aktion durchgeführt. Plugin %1$s war bereits aktiv."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin nicht aktiviert. Eine höhere Version von %s ist für dieses Theme "
+"erforderlich. Bitte aktualisieren Sie das Plugin."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr "Ignorieren diesen Hinweis"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Bitte wenden Sie sich an den Administrator dieser Seite um Hilfe zu erhalten."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Dieses Plugin muss aktualisiert werden, um mit Ihrem Theme kompatibel zu "
+"sein."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Update erforderlich"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+"Bitte stellen Sie stattdessen die parent_slug Konfigurationsvariable ein."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:828
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Das Remote-Plugin-Paket enthält keinen Ordner mit dem gewünschten Slug und "
+"eine Umbenennung hat nicht funktioniert."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:935
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Bitte kontaktieren Sie den Plugin-Provider und bitten Sie Ihn, dessen "
+"Plugins nach den Wordpress-Richtlinien zu verpacken."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Das Remote-Plugin-Paket besteht aus mehreren Dateien, aber die Dateien sind "
+"nicht in einem Ordner gepackt."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1116
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:1881
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr "Erforderlich"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr "Vorverpackt"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr "Installiert, aber nicht aktiviert"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr "Erforderliche Aktualisierung nicht verfügbar"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr "Erfordert Aktualisierung"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr "Update empfohlen"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2235
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2280
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "Alle <span class=\"count\">(%s)</span>"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr "Installieren <span class=\"count\">(%s)</span>"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr "Update verfügbar <span class=\"count\">(%s)</span>"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr "Aktivieren <span class=\"count\">(%s)</span>"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unbekannt"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr "Minimale erforderliche Version:"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+"Keine Plugins zu installieren, aktualisieren oder zu aktivieren. <a href="
+"\"%1$s\">Zurück zum Dashboard </a>"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr "Quelle"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr "Type"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr "Version"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr "Status"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2491
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr "Installieren %2$s"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2495
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr "Aktualisieren %2$s"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr "Aktivieren %2$s"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin Autor:"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr "Installieren"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Keine Plugins wurden für die Installation ausgewählt. Keine Aktion "
+"durchgeführt."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Keine Plugins wurden für die Aktualisieren ausgewählt. Keine Aktion "
+"durchgeführt."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "Keine Plugins stehen zu diesem Zeitpunkt installiert werden."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "Keine Plugins stehen zu diesem Zeitpunkt aktualisiert werden."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Keine Plugins wurden für die Aktivieren ausgewählt. Keine Aktion "
+"durchgeführt."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr "Keine Plugins stehen zu diesem Zeitpunkt aktiviert werden."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr "Die Plugin-Aktivierung ist fehlgeschlagen."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualisiere Plugin %1$s (%2$d/%3$d)"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Ein Fehler ist aufgetreten bei der Installation von %1$s: <strong>%2$s</"
+"strong>."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Der Installations- und Aktivierungsprozess wurde gestartet. Dieser Vorgang "
+"kann eine Weile dauern, haben Sie bitte etwas Geduld."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s wurde erfolgreich installiert und aktiviert."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3370
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3370
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+"Alle Installationen und Aktivierungen wurden erfolgreich abgeschlossen."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installierung und Aktivierung Plugin %1$s (%2$d/%3$d)"
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsprozess wurde gestartet. Dieser Vorgang kann eine Weile "
+"dauern, haben Sie bitte etwas Geduld."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s erfolgreich installiert."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr "Alle Installationen sind abgeschlossen."
+
+#: includes/vendor/tgmpa/tgm-plugin-activation/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installierung Plugin %1$s (%2$d/%3$d)"
+
+#: page.php:35
+msgid "No page found"
+msgstr "Seite nicht gefunden"
+
+#: partials/blog/article/footer.php:17
+msgid "Your browser doesn't support audio player"
+msgstr "Ihr Browser unterstützt keinen Audio-Player"
+
+#: partials/blog/article/header.php:8
+msgctxt "more"
+msgid "+"
+msgstr ""
+
+#: partials/blog/content-none.php:8
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: partials/blog/content-none.php:15
+msgid "Ready to publish your first post?"
+msgstr "Bereit, deinen ersten Beitrag zu veröffentlichen?"
+
+#: partials/blog/content-none.php:16
+msgid "Get started here"
+msgstr "Beginnen hier"
+
+#: partials/blog/content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Es tut uns leid, aber wir haben keine Einträge für Ihr Suchwort gefunden. "
+"Bitte noch einmal mit anderen Begriffen versuchen."
+
+#: partials/blog/content-none.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Es scheint, dass wir nicht finden, wonach Sie suchen. Vielleicht hilft Ihnen "
+"die Suche."
+
+#: partials/page-builder/projects.php:20 woocommerce/archive-product.php:71
+msgid "All"
+msgstr "Alle"
+
+#: partials/post/comment-form.php:5
+msgid "Your comment"
+msgstr "Ihr Kommentar"
+
+#: partials/post/comment-form.php:8 woocommerce/single-product-reviews.php:61
+msgid "Name"
+msgstr "Name"
+
+#: partials/post/comment-form.php:11 woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr "E-mail"
+
+#: partials/post/comment-form.php:14
+msgid "Website"
+msgstr "Website"
+
+#: partials/post/comment-form.php:21
+msgid "What do you think"
+msgstr "Was denken Sie"
+
+#: partials/post/comment-form.php:25
+msgid "POST YOUR COMMENT"
+msgstr "Ihr Kommentar posten"
+
+#: partials/post/comments-navigation.php:6
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: partials/post/comments-navigation.php:8
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: partials/post/related-posts.php:9
+msgid "Related posts:"
+msgstr "Ähnliche Beiträge:"
+
+#: partials/post/taxonomies.php:4 partials/project/taxonomies.php:11
+msgid "Categories"
+msgstr "Kategorien"
+
+#: partials/post/taxonomies.php:11
+msgid "Tags"
+msgstr "Tags"
+
+#: partials/project/related-projects.php:9
+msgid "Related projects:"
+msgstr "Ähnliche Projekte:"
+
+#: searchform.php:3
+msgid "Search"
+msgstr "Suche"
+
+#: woocommerce/cart/cart-totals.php:22
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: woocommerce/cart/cart-totals.php:44
+msgid "Shipping"
+msgstr "Versand"
+
+#: woocommerce/cart/cart-totals.php:76 woocommerce/cart/cart.php:29
+msgid "Total"
+msgstr "Gesamtsumme"
+
+#: woocommerce/cart/cart-totals.php:88
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr "(Steuern für %s geschätzt)"
+
+#: woocommerce/cart/cart-totals.php:91
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"Hinweis: Versandkosten und Steuern sind geschätzt%s und werden während des "
+"Bestellvorgangs aktualisiert, basierend auf Ihren Rechnungs- und "
+"Versandinformationen."
+
+#: woocommerce/cart/cart.php:26
+msgid "Product"
+msgstr "Produkt"
+
+#: woocommerce/cart/cart.php:27
+msgid "Price"
+msgstr "Preis"
+
+#: woocommerce/cart/cart.php:28
+msgid "Quantity"
+msgstr "Menge"
+
+#: woocommerce/cart/cart.php:70
+msgid "Available on backorder"
+msgstr "Bei Nachbestellung verfügbar"
+
+#: woocommerce/cart/cart.php:109
+msgid "Remove this item"
+msgstr "Dieses Element entfernen"
+
+#: woocommerce/cart/cart.php:126
+msgid "Update Cart"
+msgstr "Warenkorb aktualisieren"
+
+#: woocommerce/cart/cart.php:147
+msgid "Coupon code"
+msgstr "Gutschein-Code"
+
+#: woocommerce/cart/cart.php:147
+msgid "Apply Coupon"
+msgstr "Gutschein einlösen"
+
+#: woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr "Vielleicht interessiert Sie auch&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate Shipping"
+msgstr "Versandkosten berechnen"
+
+#: woocommerce/cart/shipping-calculator.php:30
+msgid "Select a country&hellip;"
+msgstr "Wählen Sie bitte ein Land aus&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:47
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / county"
+msgstr "Staat / Land"
+
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select a state&hellip;"
+msgstr "Wählen Sie bitte ein Staat aus&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr "Stadt"
+
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Postcode / Zip"
+msgstr "PLZ / Zip"
+
+#: woocommerce/cart/shipping-calculator.php:87
+msgid "Update Totals"
+msgstr "Gesamtsumme aktualisiert"
+
+#: woocommerce/checkout/form-shipping.php:32
+msgid "Ship to a different address?"
+msgstr "Versand an eine andere Adresse?"
+
+#: woocommerce/checkout/form-shipping.php:58
+msgid "Additional Information"
+msgstr "Zusätzliche Informationen"
+
+#: woocommerce/loop/out-of-stock-flash.php:9
+#: woocommerce/single-product/out-of-stock-flash.php:9
+msgid "Out of Stock"
+msgstr "kein Bestand"
+
+#: woocommerce/single-product-reviews.php:41
+msgid "There are no reviews yet."
+msgstr "Es gibt noch keine Rezensionen."
+
+#: woocommerce/single-product-reviews.php:54
+msgid "Add review"
+msgstr "Rezension hinzufügen"
+
+#: woocommerce/single-product-reviews.php:55
+msgid "Be the first to review"
+msgstr "Schreiben Sie die erste Rezension"
+
+#: woocommerce/single-product-reviews.php:56
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Eine Antwort hinterlassen für %s"
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Add your review"
+msgstr "Ihre Rezension hinzufügen"
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+"Sie müssen sich <a href=\"%s\">anmelden</a> um eine Rezension abzugeben."
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Rate&hellip;"
+msgstr "Bewerten&hellip;"
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Perfect"
+msgstr "Perfekt"
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Good"
+msgstr "Gut"
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Average"
+msgstr "Durchschnitt"
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Not that bad"
+msgstr "Nicht schlecht"
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Very Poor"
+msgstr "Sehr schlecht"
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Your review"
+msgstr "Ihre Rezension"
+
+#: woocommerce/single-product-reviews.php:101
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Nur angemeldete Kunden, die dieses Produkt gekauft haben, dürfen eine "
+"Rezension abgeben."
+
+#: woocommerce/single-product/meta.php:26
+msgid "SKU:"
+msgstr "Art.-Nr.:"
+
+#: woocommerce/single-product/meta.php:26
+msgid "N/A"
+msgstr "nicht verfügbar"
+
+#: woocommerce/single-product/meta.php:30
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: woocommerce/single-product/meta.php:32
+msgid "Tag:"
+msgstr "Schlagwort / Tag:"
+
+#: woocommerce/single-product/rating.php:27
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Bewertet mit %s von 5"
+
+#: woocommerce/single-product/rating.php:29
+#, php-format
+msgid "out of %s5%s"
+msgstr "von %s5%s"
+
+#: woocommerce/single-product/rating.php:30
+#, php-format
+msgid "based on %s customer rating"
+msgstr "basierend auf %s Kundenbewertungen"
+
+#: woocommerce/single-product/rating.php:33
+#, php-format
+msgid "%s review"
+msgstr "%s Rezension"
+
+#: woocommerce/single-product/related.php:42
+msgid "Related Products"
+msgstr "Ähnliche Produkte"
+
+#: woocommerce/single-product/review.php:40
+msgid "Your comment is awaiting approval"
+msgstr "Ihr Kommentar wartet auf die Genehmigung"
+
+#: woocommerce/single-product/review.php:49
+msgid "verified owner"
+msgstr "verifizierter Inhaber"
+
+#: woocommerce/single-product/review.php:59
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Bewertet mit %d von 5"
+
+#: woocommerce/single-product/review.php:60
+msgid "out of 5"
+msgstr "von 5"
+
+#~ msgid "Select the number of projects to display."
+#~ msgstr ""
+#~ "Bitte wählen Sie die Anzahl der Projekte aus, die angezeigt werden sollen."
+
+#~ msgid "Select the number of posts to display."
+#~ msgstr ""
+#~ "Bitte wählen Sie die Anzahl derBeiträge aus, die angezeigt werden sollen."
+
+#~ msgid "Asides"
+#~ msgstr "Kurzmitteilung"
+
+#~ msgid "Galleries"
+#~ msgstr "Galerie"
+
+#~ msgid "Images"
+#~ msgstr "Bild"
+
+#~ msgid "Videos"
+#~ msgstr "Video"
+
+#~ msgid "Quotes"
+#~ msgstr "Zitat"
+
+#~ msgid "Links"
+#~ msgstr "Link"
+
+#~ msgid "Statuses"
+#~ msgstr "Statusmiteilung"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgid "Chats"
+#~ msgstr "Chatprotokoll"
+
+#~ msgid "Previous"
+#~ msgstr "Zurück"
+
+#~ msgid "Next"
+#~ msgstr "Weiter"
+
+#~ msgid "Open in a new tab"
+#~ msgstr "In neuem Tab öffnen"
+
+#~ msgid "Project"
+#~ msgstr "Projekt"
+
+#~ msgid "Project Category"
+#~ msgstr "Projekt Kategorie"
+
+#~ msgid "and"
+#~ msgstr "und"
+
+#~ msgid "Heading"
+#~ msgstr "Überschriften Farbe"
+
+#~ msgid "Text"
+#~ msgstr "Textfarbe"
+
+#~ msgid "Feature"
+#~ msgstr "Funktion Farbe"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "Bereit, deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s"
+#~ "\">Beginnen hier</a>."
+
+#~ msgid "Pages:"
+#~ msgstr "Seiten:"
+
+#~ msgid ""
+#~ "The reasons of this error are multiple. We could suggest you couple of "
+#~ "these: the page you have requested\n"
+#~ "\t\t\tdoes not exist anymore, the load time of this page is too long."
+#~ msgstr ""
+#~ "Die Gründe für diesen Fehler sind mehrere. Wir könnten Ihnen paar von "
+#~ "diesen vorschlagen: die von Ihnen angeforderte Seite existiert nicht "
+#~ "mehr, die Ladezeit dieser Seite ist zu lang."
+
+#~ msgid "Subheading"
+#~ msgstr "Untertitel Farbe"
+
+#~ msgid "Work"
+#~ msgstr "Arbeit"
+
+#~ msgid "Our projects"
+#~ msgstr "Unsere Projekte"
+
+#~ msgid "edit /"
+#~ msgstr "bearbeiten /"
+
+#~ msgid "Read More"
+#~ msgstr "Weiterlesen"
+
+#~ msgid "NAME"
+#~ msgstr "NAME"
+
+#~ msgid "EMAIL"
+#~ msgstr "E-MAIL"
+
+#~ msgid "WEBSITE"
+#~ msgstr "WEBSITE"
+
+#~ msgid "Categories:"
+#~ msgstr "Kategorien:"
+
+#~ msgid "Tags:"
+#~ msgstr "Tags:"
+
+#~ msgid "Line height (em)"
+#~ msgstr "Zeilenhöhe (em)"
+
+#~ msgid "Headings color"
+#~ msgstr "Überschriften Farbe"
+
+#~ msgid "Subheadings color"
+#~ msgstr "Untertitel Farbe"
+
+#~ msgid "Text color"
+#~ msgstr "Textfarbe"
+
+#~ msgid "feature_color"
+#~ msgstr "Funktion_Farbe"
+
+#~ msgid "posts_speed"
+#~ msgstr "Beiträge_Geschwindigkeit"

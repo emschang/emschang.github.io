@@ -1,0 +1,26 @@
+/*------------------------------------*\
+    $SHORTCODES
+\*------------------------------------*/
+.new-tab {
+
+  label {
+    position: relative;
+    top: 23px;
+    left: 23px;
+  }
+
+  input {
+    position: relative;
+    top: 4px;
+  }
+}
+
+#wpgrade_shortcodes {
+
+  [data-icon] {
+
+    &:before {
+      content: none!important;
+    }
+  }
+}

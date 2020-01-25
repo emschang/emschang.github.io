@@ -1,0 +1,83 @@
+/*------------------------------------*\
+    $ISOTOPE
+\*------------------------------------*/
+.main__header--classic {
+  margin-bottom: $_lh*1rem;
+}
+
+  .mesh__filter {
+
+      li {
+        float: left;
+      }
+
+        a {
+          @extend %btn--gamma;
+          @extend %btn--large;
+
+          display: block;
+
+          position: relative;
+
+          border-bottom: 1px solid $light;
+
+          font-weight: 300;
+
+          letter-spacing: $_bsu48;
+          text-transform: uppercase;
+
+          @include transition(all 0.3s ease);
+
+          &:hover {
+            color: $white;
+
+            &:before {
+              height: 100%;
+            }
+          }
+        }
+  }
+
+    .mesh__filter__options {
+      display: table;
+
+      margin: 0 auto;
+    }
+
+        .btn--selected {
+
+          @include media-query(desk) {
+            &:before {
+              content: '';
+
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              z-index: -1;
+
+              height: 100%;
+              width: 100%;
+
+              @include transition(all 0.3s ease);
+            }
+          }
+
+          color: $white!important;
+        }
+
+        .btn--not-selected {
+
+          &:before {
+            content: '';
+
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+
+            height: 0;
+            width: 100%;
+
+            @include transition(all 0.3s ease);
+          }
+        }

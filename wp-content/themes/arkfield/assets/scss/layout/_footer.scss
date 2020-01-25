@@ -1,0 +1,134 @@
+/*------------------------------------------------*\
+               $FOOTER
+\*------------------------------------------------*/
+#site-footer {
+  position: relative;
+  z-index: 1040;
+
+  padding: $_lh*4rem $_lh*1rem;
+
+  font-size: $_bsu17;
+  font-weight: 300;
+
+  h4 {
+    margin-bottom: $_lh*2rem;
+  }
+
+  img {
+    @extend %img;
+  }
+}
+
+  .footer__container {
+    max-width: $content-all;
+    margin: 0 auto;
+  }
+
+    .footer__widget-area {
+      @extend .cf;
+
+      margin-bottom: $_lh*1rem;
+
+      @include media-query(portable) {
+        margin-right: -$_lh*1rem;
+        margin-left: -$_lh*1rem;
+      }
+
+      @include media-query(desk) {
+        margin-right: -$_lh*1.7rem;
+        margin-left: -$_lh*1.7rem;
+      }
+    }
+
+    .footer__menu-area {
+      @extend .cf;
+    }
+
+      .navigation--footer {
+
+        @include media-query(desk) {
+          max-width: $content-all / 2;
+        }
+      }
+
+        .menu--footer {
+
+          @include media-query(desk) {
+            float: left;
+          }
+
+          .menu-item {
+            @extend .push--right;
+
+            &:last-child {
+              margin-right: 0!important;
+
+              a {
+
+                @include media-query(desk) {
+                  margin-right: 5rem;
+                }
+
+                &:after {
+                  display: none;
+                }
+              }
+            }
+
+            a {
+              color: $light;
+
+              &:hover,
+              &:focus {
+                color: $gray;
+              }
+
+              &:after {
+                content: '\2022';
+
+                position: relative;
+                left: 16px;
+              }
+            }
+          }
+        }
+
+      .copyright-area {
+        opacity: 0.5;
+
+        @include media-query(portable) {
+          margin-bottom: $_lh*3rem;
+        }
+
+        @include media-query(desk) {
+          float: left;
+        }
+
+        color: $white;
+
+        letter-spacing: $_bsu48;
+      }
+
+      .btn--top {
+        font-size: $_bsu15;
+
+        letter-spacing: $_bsu48;
+        text-transform: uppercase;
+
+        @include media-query(desk) {
+          float: right;
+        }
+
+        span {
+          opacity: 0.5;
+
+          color: $white;
+
+          @include transition(all 0.5s);
+
+          &:hover,
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }

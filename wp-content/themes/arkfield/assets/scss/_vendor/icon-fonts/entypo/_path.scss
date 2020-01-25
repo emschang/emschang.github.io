@@ -1,0 +1,26 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'entypo';
+  src: url('#{$fontPath}/entypo.eot');
+  src: url('#{$fontPath}/entypo.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}/entypo.woff') format('woff'),
+  url('#{$fontPath}/entypo.ttf') format('truetype'),
+  url('#{$fontPath}/entypo.svg#entypo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'entypo-social';
+  src: url('#{$fontPath}/entypo-social.eot');
+  src: url('#{$fontPath}/entypo-social.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}/entypo-social.woff') format('woff'),
+  url('#{$fontPath}/entypo-social.ttf') format('truetype'),
+  url('#{$fontPath}/entypo-social.svg#entypo-social') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}

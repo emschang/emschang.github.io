@@ -1,0 +1,84 @@
+/*------------------------------------*\
+    $METABOX
+\*------------------------------------*/
+#header_slider,
+#poststuff div[id^="page_builder_sections"],
+#audio_post_format {
+  word-wrap: break-word;
+
+  .inside {
+    font-size: 14px!important;
+  }
+
+    .meta-box-custom-field {
+      border-bottom: 1px solid #e5e5e5;
+      margin-right: 10px;
+      margin-left: 10px;
+      padding-top: 20px;
+      padding-bottom: 24px;
+
+      &:nth-child(3){
+        padding-bottom: 10px;
+      }
+
+      input {
+        position: relative;
+        top: 2px;
+      }
+
+      input[type='text'],
+      input[type='url'] {
+
+        @include media-query(portable) {
+          width: 130px;
+        }
+
+        @include media-query(desk) {
+          width: 200px;
+        }
+      }
+
+      label {
+        display: inline-block;
+
+        margin-right: 20px;
+
+        font-weight: bold;
+
+        text-align: right;
+
+        @include media-query(portable) {
+          width: 80px;
+        }
+
+        @include media-query(desk) {
+          width: 230px;
+        }
+      }
+
+      #insert-media-button {
+
+        span {
+          display: inline;
+        }
+      }
+    }
+}
+
+      .meta-box-custom-field__description {
+        display: block;
+
+        padding-top: 10px;
+
+        color: #aaa;
+
+        font-style: italic;
+
+        @include media-query(portable) {
+          margin-left: 100px;
+        }
+
+        @include media-query(desk) {
+          margin-left: 254px;
+        }
+      }

@@ -1,0 +1,26 @@
+/*------------------------------------------------*\
+               $ORDER
+\*------------------------------------------------*/
+.woocommerce table.shop_table tbody th {
+  border-color: $gray;
+}
+
+.addresses {
+  padding: 12px;
+
+  background: $light;
+}
+
+.woocommerce .order_details {
+  list-style: none!important;
+  margin: 0 0 1.5em!important;
+
+  li {
+    @include media-query(portable) {
+      float: none;
+
+      border: 0;
+      margin-bottom: $_lh*0.5rem;
+    }
+  }
+}

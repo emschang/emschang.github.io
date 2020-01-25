@@ -1,0 +1,82 @@
+/*------------------------------------*\
+    $ICON
+\*------------------------------------*/
+%icon {
+  display: inline-block;
+
+  height: 2.2em;
+  width: 2.2em;
+
+  cursor: pointer;
+
+  line-height: 2.3em;
+  text-align: center;
+}
+
+%icon--default {
+  color: $white;
+
+  @include transition(all 0.5s);
+
+  &:hover,
+  &:focus {
+    background: $light;
+    color: $black;
+  }
+}
+
+.pikode--icon {
+  @extend %icon;
+
+  &.circle {
+    @extend %icon--default;
+
+    @include border-radius(999px);
+  }
+
+  &.rectangle {
+    @extend %icon--default;
+
+    border-radius: 0.2em;
+  }
+
+  &.small {
+    font-size: 1rem;
+  }
+
+  &.medium {
+    font-size: 1.5rem;
+  }
+
+  &.big {
+    font-size: 2rem;
+  }
+}
+
+.pikode--color {
+  height: auto;
+  width: auto;
+
+  @include transition(all 0.5s ease);
+
+  &:hover,
+  &:focus {
+    color: $gray;
+  }
+}
+
+.icon-border {
+  height: 2.2em!important;
+  width: 2.2em!important;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0;
+
+  line-height: 2.2em;
+
+  &:hover,
+  &:focus {
+    border-color: $gray;
+  }
+}

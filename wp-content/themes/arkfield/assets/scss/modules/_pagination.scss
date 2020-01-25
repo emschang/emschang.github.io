@@ -1,0 +1,105 @@
+/*------------------------------------*\
+    $PAGINATION DIARY
+\*------------------------------------*/
+%btn--next--prev {
+  position: relative;
+  top: 1px;
+
+  font-family: $icon-font-family;
+  font-size: $_bsu12;
+}
+
+.pagination {
+  display: table;
+
+  position: relative;
+
+  margin: $_lh*3rem auto $_lh*1rem;
+
+  text-align: center;
+
+  .current {
+    border: 1px solid $transparent;
+
+    color: $white;
+
+    cursor: pointer;
+  }
+
+  .next {
+
+    &:before {
+      @extend %btn--next--prev;
+
+      content: '\f105';
+
+      left: 2px;
+    }
+  }
+
+  .prev {
+
+    &:before {
+      @extend %btn--next--prev;
+
+      content: '\f104';
+    }
+  }
+}
+
+%page-numbers,
+.page-numbers {
+  border: 1px solid $gray;
+  border-radius: $button-radius;
+  padding: 7px 16px;
+
+  color: $black;
+
+  font-weight: 300;
+
+  @include transition(all 0.5s);
+
+  &:hover,
+  &:focus {
+    border: 1px solid $transparent;
+
+    color: $white;
+  }
+}
+
+
+/*------------------------------------*\
+    $PAGINATION BLOG POST
+\*------------------------------------*/
+.navigation--page-breaks {
+  position: relative;
+
+  &>a,
+  &>span {
+    @extend %page-numbers;
+
+    padding: 4px 12px;
+  }
+
+  &>span {
+    border: 1px solid $transparent;
+
+    color: $white;
+
+    cursor: pointer;
+  }
+}
+
+
+/*------------------------------------*\
+    $PAGINATION COMMENTS
+\*------------------------------------*/
+.navigation--comments {
+
+  a {
+    @extend .btn;
+    @extend %pikode--btn;
+    @extend %btn--gamma;
+    @extend %btn--small;
+  }
+}

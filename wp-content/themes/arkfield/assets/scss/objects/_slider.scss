@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    $SLIDER
+\*------------------------------------*/
+.pikartslider--quote {
+  position: relative;
+
+  width: 100%;
+  margin-top: $_lh*1rem;
+  margin-bottom: $_lh*1rem;
+
+  p {
+    margin-bottom: 0;
+
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+  .rsArrowLeft,
+  .rsArrowRight {
+    @extend %rsArrow--quote;
+
+    float: left;
+
+    border-left: 1px solid $dark;
+
+    @include transition(all 0.5s);
+
+    &:hover,
+    &:focus {
+      border-bottom-color: $gray;
+      border-left-color: $gray;
+    }
+  }
+
+  .rsArrowLeft {
+    @include rotate(45deg);
+  }
+
+  .rsArrowRight {
+    @include rotate(-135deg);
+  }
+}
+
+  .slide {
+    cursor: pointer;
+  }

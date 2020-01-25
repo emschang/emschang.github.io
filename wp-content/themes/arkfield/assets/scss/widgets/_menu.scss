@@ -1,0 +1,33 @@
+/*------------------------------------------------*\
+               $MENU WIDGET
+\*------------------------------------------------*/
+.widget_nav_menu {
+
+  li {
+    display: inline;
+
+    margin-right: $_bsu;
+  }
+
+     a {
+       display: inline-block!important;
+     }
+
+    .menu-item-has-children {
+      margin-right: 0;
+
+      &>a {
+        margin-right: $_bsu;
+      }
+    }
+
+      .sub-menu {
+        display: inline;
+
+        position: relative;
+
+        li {
+          display: inline-block;
+        }
+      }
+}

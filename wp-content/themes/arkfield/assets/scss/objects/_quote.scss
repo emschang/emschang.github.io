@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    $QUOTE
+\*------------------------------------*/
+.pikode--quote {
+
+  a {
+    color: $black;
+
+    @include transition(all 0.5s);
+
+    &:hover,
+    &:focus {
+      color: $dark;
+    }
+  }
+}
+
+  .quote__content {
+    margin-bottom: 1.5rem;
+  }
+
+  .quote__author-name {
+    font-style: normal;
+    font-weight: 400;
+
+    letter-spacing: $_bsu16;
+    text-transform: uppercase;
+  }
+
+
+/*------------------------------------*\
+    $FONT-SIZES
+\*------------------------------------*/
+.quote--small-text {
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+.quote--medium-text {
+
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+.quote--big-text {
+
+  p {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,40 @@
+/*------------------------------------------------*\
+               $SEARCH BAR
+\*------------------------------------------------*/
+.widget_search {
+
+  input::-webkit-input-placeholder {
+    color: $white;
+  }
+  input:-moz-placeholder {
+    color: $white;
+  }
+  input::-moz-placeholder {
+    color: $white;
+  }
+  input:-ms-input-placeholder {
+    color: $white;
+  }
+
+  .form-control {
+    display: block;
+
+    border: 1px solid $light;
+    border-radius: $button-radius;
+
+    background: $transparent;
+    color: $white;
+
+    font-size: $base-font-size;
+
+    &#s {
+      padding: 13px;
+
+      @include transition(all 0.3s);
+    }
+  }
+
+    &#searchsubmit {
+      display: none;
+    }
+}

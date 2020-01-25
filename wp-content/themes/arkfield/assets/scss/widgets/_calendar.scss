@@ -1,0 +1,79 @@
+/*------------------------------------------------*\
+               $CALENDAR
+\*------------------------------------------------*/
+.widget_calendar {
+  color: $white;
+
+  table {
+    border-collapse: collapse;
+  }
+
+  %caption {
+    border: 1px solid $light;
+    padding: 13px;
+
+    text-transform: uppercase;
+  }
+
+  caption {
+    @extend %caption;
+    @include border-radius($button-radius);
+
+    letter-spacing: $_bsu16;
+  }
+
+  thead {
+
+    th {
+      padding: 13px 0;
+
+      color: $white;
+
+      font-weight: 300;
+
+      text-align: center;
+    }
+  }
+
+  tbody {
+    @extend %caption;
+
+    tr {
+      border-bottom: 1px solid $light;
+
+      td {
+        text-align: center;
+
+        @include media-query(palm) {
+          padding: 12px;
+        }
+
+        a {
+          opacity: 0.5;
+
+          @include transition(all 0.3s);
+
+          &:hover,
+          &:focus {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+  tfoot {
+
+    #prev a {
+      float: left;
+    }
+
+    #next a {
+      float: right;
+    }
+
+    a {
+      text-transform: uppercase;
+    }
+  }
+}

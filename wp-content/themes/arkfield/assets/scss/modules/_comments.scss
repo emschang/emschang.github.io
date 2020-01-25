@@ -1,0 +1,149 @@
+/*------------------------------------*\
+    $COMMENTS
+\*------------------------------------*/
+.comments {
+
+  h2 {
+    margin-bottom: $_lh*2rem;
+  }
+}
+
+  .comment-list {
+
+    #respond {
+      margin-top: $_lh*3rem;
+      margin-bottom: $_lh*3rem;
+    }
+  }
+
+    .depth-1 {
+
+      &> .comment-body {
+
+        .comment-reply {
+
+          a {
+            color: $white;
+
+            &:hover,
+            &:focus {
+              background: $light;
+              color: $dark;
+            }
+          }
+        }
+      }
+    }
+
+      .comment-body {
+        margin-bottom: $_lh*1rem;
+
+        p {
+          clear: both;
+
+          margin-bottom: 0;
+          margin-left: $_lh*2.8rem;
+        }
+      }
+
+        .comment-body__bar {
+          border: 1px solid $light;
+          margin-bottom: $_lh*0.3rem;
+
+          table-layout: fixed;
+        }
+
+          .comment-author {
+            float: left;
+
+            margin-right: $_lh*1rem;
+
+            font-weight: 700;
+
+            text-transform: uppercase;
+
+            a {
+              font-style: normal;
+
+              @include transition(all 0.5s);
+
+              &:hover,
+              &:focus {
+                opacity: 0.5;
+              }
+            }
+
+            cite {
+              font-style: normal;
+            }
+          }
+
+          .comment-meta {
+            float: left;
+
+            font-style: italic;
+            font-weight: 300;
+
+            text-transform: lowercase;
+          }
+
+          .comment-reply {
+            width: 3rem;
+
+            font-size: $base-line-height;
+            font-weight: 300;
+
+            text-align: center;
+            vertical-align: top;
+
+            a {
+              display: block;
+
+              width: 100%;
+
+              background: $light;
+
+              @include transition(all 0.5s);
+
+              &:hover,
+              &:focus {
+                color: $white;
+              }
+            }
+          }
+
+          .comment-data {
+            padding-right: $_lh*1rem;
+            padding-left: $_lh*1rem;
+
+            word-break: break-word;
+          }
+
+            .comment-edit-link {
+              float: right;
+
+              color: $gray!important;
+              font-weight: 600;
+
+              letter-spacing: $_bsu48;
+              text-transform: capitalize;
+
+              @include transition(all 0.5s);
+
+              &:hover,
+              &:focus {
+                color: $dark!important;
+              }
+            }
+
+          .awaiting-comment {
+            display: block;
+            opacity: 0.5;
+
+            margin-top: $_lh*1rem;
+          }
+
+        .children {
+          list-style: none!important;
+          margin-left: $_lh*0.5rem!important;
+        }

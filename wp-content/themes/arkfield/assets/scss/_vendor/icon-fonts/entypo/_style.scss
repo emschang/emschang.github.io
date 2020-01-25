@@ -1,0 +1,33 @@
+/*----------------------------------------*\
+*   CUSTOM ENTYPO STYLE
+\*----------------------------------------*/
+[class^="icon-e-"]:before,
+[class*=" icon-e-"]:before {
+  display: inline-block;
+  /* opacity: .8; */
+
+  width: 1.1em;
+  margin-top: 0.5em;
+  margin-right: 0.2em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  font-family: "entypo";
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  font-style: normal;
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  font-weight: normal;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1.2em;
+  //speak: none;
+  text-align: center;
+  text-decoration: inherit;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  text-transform: none;
+}

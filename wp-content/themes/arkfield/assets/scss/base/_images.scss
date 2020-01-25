@@ -1,0 +1,16 @@
+/*------------------------------------*\
+               IMAGES
+\*------------------------------------*/
+img {
+  display: block;
+}
+
+%img {
+  height: auto;
+  width: 100%;
+}
+
+%img-max {
+  max-height: 100%!important;
+  max-width: 100%!important;
+}

@@ -1,0 +1,58 @@
+/*------------------------------------------------*\
+               $CATEGORIES WIDGET
+\*------------------------------------------------*/
+%widget_categories,
+.widget_categories {
+
+  li {
+    display: inline-block;
+
+    margin-top: -4px;
+    padding-bottom: 0!important;
+  }
+
+  a {
+    margin-right: 0.3rem;
+
+    border: 1px solid $gray;
+    border-radius: $button-radius;
+    margin-right: 0.3rem;
+    margin-bottom: 0.5rem;
+    padding-right: 1em;
+    padding-left: 1em;
+
+    color: $light;
+
+    font-weight: 300;
+
+    letter-spacing: $_bsu48;
+    line-height: 2;
+    text-transform: lowercase;
+
+    @include transition(all 0.5s);
+
+    &:hover,
+    &:focus {
+      opacity: 1!important;
+
+      border: 1px solid $transparent;
+
+      background: $white;
+      color: $dark;
+    }
+  }
+
+  select {
+    width: 100%;
+    border-radius: $button-radius;
+    padding: 13px;
+
+    font-weight: 300;
+
+    background: $lightest;
+
+    letter-spacing: $_bsu48;
+    outline: none;
+    text-transform: uppercase;
+  }
+}

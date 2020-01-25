@@ -1,0 +1,39 @@
+/*------------------------------------------------*\
+               $BASE
+\*------------------------------------------------*/
+.woocommerce {
+
+  select:-moz-focusring {
+    color: $transparent;
+
+    text-shadow: 0 0 0 #000;
+  }
+}
+
+p.demo_store {
+  top: 96px;
+  z-index: 1041;
+
+  box-shadow: none;
+}
+
+.admin-bar p.demo_store {
+  top: 128px;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+  color: $gray;
+
+  font-size: $h6-size;
+
+  a {
+    color: $gray;
+
+    @include transition(all 0.3s ease);
+
+    &:hover,
+    &:focus {
+      color: $black;
+    }
+  }
+}

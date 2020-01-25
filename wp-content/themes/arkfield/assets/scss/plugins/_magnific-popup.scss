@@ -1,0 +1,220 @@
+/*------------------------------------*\
+    $MAGNIFIC POPUP
+\*------------------------------------*/
+.mfp-ready .mfp-figure {
+  opacity: 0;
+}
+
+.mfp-wrap {
+  -webkit-overflow-scrolling: touch;
+}
+
+.mfp-zoom-in {
+
+  /* start state */
+  .mfp-figure {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    transform: scale(1);
+  }
+
+  &.mfp-bg,
+  .mfp-preloader {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+  }
+
+  /* animate in */
+  &.mfp-image-loaded {
+    .mfp-figure {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  &.mfp-ready {
+    &.mfp-bg,
+    .mfp-preloader {
+      opacity: 0.8;
+    }
+  }
+
+  /* animate out */
+  &.mfp-removing {
+
+    .mfp-figure {
+      transform: scale(1);
+      opacity: 0;
+    }
+
+    &.mfp-bg,
+    .mfp-preloader {
+      opacity: 0;
+    }
+  }
+}
+
+.mfp-bg {
+  opacity: 0.98 !important;
+  filter: alpha(opacity=98) !important;
+
+  right: 0;
+  bottom: 0;
+}
+
+  .mfp-content {
+
+    @include media-query(portable) {
+      max-width: 80%!important;
+    }
+
+    @include media-query(desk) {
+      max-width: 90%!important;
+    }
+  }
+
+    .mfp-figure:after {
+      bottom: 80px;
+    }
+
+      .mfp-close {
+        cursor: pointer!important;
+      }
+
+      img.mfp-img {
+        height: auto;
+        width: auto;
+        padding-bottom: 80px;
+      }
+
+      .mfp-bottom-bar {
+        margin-top: -$_3bsu;
+      }
+
+        .mfp-title {
+          position: absolute;
+          bottom: -52px;
+        }
+
+        .mfp-counter,
+        %mfp-counter {
+          font-family: $heading-font-family;
+          font-size: $h1-size;
+          font-weight: 300;
+
+          line-height: $_lh;
+          overflow: hidden;
+        }
+
+          .separator {
+            margin-right: -2px;
+            margin-left: 6px;
+
+            font-size: $_bsu12;
+          }
+
+          .sup-count {
+            font-size: $_bsu12;
+          }
+
+  .mfp-preloader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1045;
+  }
+
+  .mp-action {
+    position: absolute;
+    top: 50%;
+
+    margin-top: -35px;
+
+    cursor: pointer;
+  }
+
+  %mp-arrow {
+    border-top: 2px solid $light;
+
+    @include transition(all 0.5s);
+
+    &:hover,
+    &:focus {
+      border-top-color: $gray;
+    }
+
+    &:before {
+      content: '';
+
+      position: absolute;
+      top: -25px;
+
+      height: 60px;
+      width: 60px;
+      background: $transparent;
+    }
+
+    @include media-query(portable) {
+      height: 20px;
+      width: 20px;
+    }
+
+    @include media-query(desk) {
+      height: 50px;
+      width: 50px;
+    }
+  }
+
+  .mp-arrow-right {
+    @extend %mp-arrow;
+
+    border-right: 2px solid $light;
+
+    @include rotateZ(45deg);
+
+    @include media-query(palm) {
+      right: 15px;
+    }
+
+    @include media-query(lap-and-up) {
+      right: 45px;
+    }
+
+    &:hover,
+    &:focus {
+      border-right-color: $gray;
+    }
+
+    &:before {
+      right: -25px;
+    }
+  }
+
+  .mp-arrow-left {
+    @extend %mp-arrow;
+
+    left: 45px;
+
+    border-left: 2px solid $light;
+
+    @include rotateZ(-45deg);
+
+    @include media-query(palm) {
+      left: 15px;
+    }
+
+    @include media-query(lap-and-up) {
+      left: 45px;
+    }
+
+    &:hover,
+    &:focus {
+      border-left-color: $gray;
+    }
+
+    &:before {
+      left: -25px;
+    }
+  }

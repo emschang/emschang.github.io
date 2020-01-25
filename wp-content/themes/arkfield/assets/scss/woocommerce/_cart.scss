@@ -1,0 +1,261 @@
+/*------------------------------------------------*\
+               $CART
+\*------------------------------------------------*/
+.woocommerce table.shop_table {
+  border-color: $gray;
+  border-radius: 0;
+  margin-bottom: $_lh*0.5rem;
+
+  @include media-query(portable) {
+    display: block;
+
+    thead {
+      display: none;
+    }
+
+    tbody,
+    tfoot,
+    tr,
+    th {
+      display: block;
+    }
+
+    .product-thumbnail {
+      display: block;
+    }
+  }
+
+  td {
+    border-color: $gray;
+
+    @include media-query(portable) {
+      display: block;
+    }
+  }
+
+  .cart_item {
+
+    @include media-query(portable) {
+      border-bottom: 3px solid $gray;
+    }
+  }
+}
+
+  .woocommerce-page table.cart td.actions .button {
+    width: auto;
+  }
+
+  .woocommerce-cart .quantity .qty {
+    border-radius: 3px;
+    padding: 0.5rem;
+
+    color: $white;
+
+    font-weight: 300;
+  }
+
+  .woocommerce-cart table.cart img {
+
+    @include media-query(portable) {
+      width: 100%;
+    }
+
+    @include media-query(desk) {
+      width: 96px;
+    }
+  }
+
+  .woocommerce input.button {
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    @include transition(all 0.3s ease);
+
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+
+  .woocommerce a.remove {
+    @include transition(all 0.3s ease);
+  }
+
+.coupon {
+  @extend .cf;
+
+  vertical-align: top;
+
+  @include media-query(portable) {
+    display: block;
+
+    margin-bottom: $_lh*0.5rem;
+  }
+
+  .input-text {
+    border: 1px solid $gray;
+    padding: 0.5rem;
+    margin-bottom: $_lh*1rem;
+  }
+}
+
+  .coupon__container {
+    width: 100%;
+    border: 1px solid $gray;
+    padding: 20px;
+
+    @include media-query(portable) {
+      display: block;
+    }
+  }
+
+    .coupon-button {
+      @extend %btn--small;
+
+      border-radius: 3px;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      background: $light;
+      color: #515151;
+
+      font-weight: 300;
+
+      text-transform: uppercase;
+
+      @include transition(all 0.3s ease);
+
+      &:hover,
+      &:focus {
+        color: $white;
+      }
+    }
+
+.woocommerce-cart .wc-proceed-to-checkout {
+  display: table;
+
+  clear: both;
+  float: right;
+
+  a.checkout-button {
+    padding: 0 1.28em!important;
+  }
+}
+
+  .woocommerce a.button.alt {
+    font-weight: 300;
+
+    text-transform: uppercase;
+
+    @include transition(all 0.3s ease);
+
+    &:hover,
+    &:focus {
+      background: $light;
+      color: $dark;
+    }
+  }
+
+.cart-collaterals__container {
+  margin-bottom: $_lh*0.3rem;
+
+  @include media-query(portable) {
+    display: block;
+  }
+}
+
+  .coupon .input-text {
+
+    @include media-query(portable) {
+      width: 100%;
+    }
+  }
+
+  .woocommerce .cart-collaterals .cart_totals,
+  .woocommerce-page .cart-collaterals .cart_totals {
+    float: none;
+
+    width: auto;
+
+    @include media-query(desk) {
+      padding-left: $_lh*0.5rem;
+    }
+  }
+
+    .woocommerce-cart .cart-collaterals .cart_totals table {
+      border: 1px solid $gray;
+      margin: 0 0 $_lh*1rem;
+    }
+
+      .woocommerce-cart .cart-collaterals .cart_totals tr th {
+        border-color: $gray;
+
+        @include media-query(portable) {
+          padding-left: 12px;
+        }
+
+        @include media-query(desk) {
+          padding-left: 25px;
+        }
+      }
+
+      .woocommerce-cart .cart-collaterals .cart_totals tr td {
+        border-color: $gray;
+        padding-left: 22px;
+        padding-right: 12px;
+      }
+
+        .woocommerce-cart .cart-collaterals .cart_totals table select {
+          border: 1px solid $gray;
+          padding: 0.5rem;
+        }
+
+        .shipping-calculator-button {
+          border-bottom: 1px solid $gray;
+          padding-bottom: 2px;
+        }
+
+        .shipping-button {
+          @extend %btn--small;
+
+          border: 0;
+          border-radius: 3px;
+          padding-top: 0;
+          padding-bottom: 0;
+
+          background: $light;
+          color: #515151;
+
+          font-weight: 300;
+
+          text-transform: uppercase;
+
+          @include transition(all 0.3s ease);
+
+          &:hover,
+          &:focus {
+            color: $white;
+          }
+        }
+
+        .woocommerce form .form-row {
+          padding: 0;
+        }
+
+          .woocommerce form .form-row input.input-text {
+            border: 1px solid $gray;
+            padding: 0.5rem;
+          }
+
+.woocommerce .cart-collaterals .cross-sells {
+  float: none;
+
+  width: 100%;
+
+  h3 {
+    margin-bottom: $_lh*1rem;
+
+    font-weight: 400;
+  }
+}

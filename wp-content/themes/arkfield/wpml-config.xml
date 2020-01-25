@@ -1,0 +1,15 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">pikart-project</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">pikart-project-category</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="theme_mods_arkfield">
+      <key name="arkfield_setting_logo_text"/>
+      <key name="arkfield_setting_copyright_text"/>
+      <key name="arkfield_setting_blog_title"/>
+    </key>
+  </admin-texts>
+</wpml-config>

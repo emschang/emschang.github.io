@@ -1,0 +1,73 @@
+/*------------------------------------*\
+               FORMS
+\*------------------------------------*/
+input {
+  border: none;
+
+  color: $gray;
+
+  &:focus {
+    outline: none;
+
+    color: $black;
+  }
+}
+
+  input::-webkit-input-placeholder {
+    color: $gray;
+  }
+
+  input:-moz-placeholder {
+    color: $gray;
+  }
+
+  input::-moz-placeholder {
+    color: $gray;
+  }
+
+  input:-ms-input-placeholder {
+    color: $gray;
+  }
+
+textarea:focus {
+  outline:none;
+
+  color: $black;
+}
+
+  textarea::-webkit-input-placeholder {
+    color: $gray;
+  }
+
+  textarea::-moz-placeholder {
+    color: $gray;
+  }
+
+  textarea:-moz-placeholder { /* older versions of firefox */
+    color: $gray;
+  }
+
+  textarea:-ms-input-placeholder {
+    color: $gray;
+  }
+
+%form-control,
+.form-control {
+  @extend %h3-6;
+
+  width: 100%;
+
+  font-size: 20px;
+
+  text-transform: uppercase;
+
+  @include transition(all 0.5s);
+
+  &:focus {
+    @include box-shadow(none);
+  }
+}
+
+select {
+  outline: none;
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="utils" class="Arkfield\Misc\Utils"/>
+        <service id="pixcodes" class="Arkfield\Misc\Pixcodes"/>
+        <service id="plugins_register" class="Arkfield\Misc\Plugins_Register"/>
+        <service id="mce_manager" class="Arkfield\Admin\MCE_Manager"/>
+        <service id="pikart_gallery" class="Arkfield\Admin\Pikart_Gallery"/>
+
+        <service id="meta_box_sanitizer" class="Arkfield\Admin\MetaBoxes\Meta_Box_Sanitizer"/>
+        <service id="meta_box_dal" class="Arkfield\Admin\MetaBoxes\Meta_Box_DAL">
+            <argument type="service" id="meta_box_sanitizer"/>
+        </service>
+        <service id="meta_box_field_generator" class="Arkfield\Admin\MetaBoxes\Generator\Field_Generator">
+            <argument type="service" id="pikart_gallery"/>
+        </service>
+        <service id="meta_box_line_generator" class="Arkfield\Admin\MetaBoxes\Generator\Line_Generator">
+            <argument type="service" id="meta_box_field_generator"/>
+        </service>
+        <service id="meta_box_generator" class="Arkfield\Admin\MetaBoxes\Generator\Meta_Box_Generator">
+            <argument type="service" id="meta_box_line_generator"/>
+            <argument type="service" id="meta_box_dal"/>
+        </service>
+        <service id="meta_box_utils" class="Arkfield\Admin\MetaBoxes\Meta_Box_Utils">
+            <argument type="service" id="utils"/>
+            <argument type="service" id="meta_box_dal"/>
+            <argument type="service" id="meta_box_generator"/>
+        </service>
+
+        <service id="project_config" class="Arkfield\Project\Project_Config"/>
+        <service id="project_dal" class="Arkfield\Project\Project_DAL"/>
+        <service id="project_register" class="Arkfield\Project\Project_Register">
+            <argument type="service" id="project_config"/>
+            <argument type="service" id="meta_box_utils"/>
+        </service>
+        <service id="project_utils" class="Arkfield\Project\Project_Utils">
+            <argument type="service" id="project_config"/>
+            <argument type="service" id="project_dal"/>
+            <argument type="service" id="utils"/>
+        </service>
+
+        <service id="google_fonts_options" class="Arkfield\Admin\ThemeCustomizer\Google_Fonts_Options"/>
+        <service id="theme_options_sanitizer" class="Arkfield\Admin\ThemeCustomizer\Theme_Options_Sanitizer"/>
+        <service id="theme_options_css_filter" class="Arkfield\Admin\ThemeCustomizer\Theme_Options_Css_Filter"/>
+        <service id="theme_options_config" class="Arkfield\Admin\ThemeCustomizer\Theme_Options_Config">
+            <argument type="service" id="google_fonts_options"/>
+        </service>
+
+        <service id="theme_options_utils" class="Arkfield\Admin\ThemeCustomizer\Theme_Options_Utils">
+            <argument type="service" id="theme_options_config"/>
+            <argument type="service" id="theme_options_css_filter"/>
+            <argument type="service" id="google_fonts_options"/>
+        </service>
+
+        <service id="theme_options_wrapper" class="Arkfield\Admin\ThemeCustomizer\Theme_Options_Wrapper">
+            <argument type="service" id="theme_options_sanitizer"/>
+            <argument type="service" id="theme_options_utils"/>
+        </service>
+
+        <service id="theme_options_builder" class="Arkfield\Admin\ThemeCustomizer\Theme_Options_Builder">
+            <argument type="service" id="theme_options_config"/>
+            <argument type="service" id="theme_options_wrapper"/>
+        </service>
+
+        <service id="theme_options_manager" class="Arkfield\Admin\ThemeCustomizer\Theme_Options_Manager">
+            <argument type="service" id="theme_options_config"/>
+            <argument type="service" id="theme_options_utils"/>
+            <argument type="service" id="theme_options_builder"/>
+        </service>
+
+        <service id="page_builder_config" class="Arkfield\PageBuilder\Page_Builder_Config">
+            <argument type="service" id="project_dal" />
+        </service>
+        <service id="page_builder_dal" class="Arkfield\PageBuilder\Page_Builder_DAL">
+            <argument type="service" id="page_builder_config"/>
+            <argument type="service" id="meta_box_sanitizer"/>
+        </service>
+        <service id="page_builder_meta_box" class="Arkfield\PageBuilder\Page_Builder_Meta_Box">
+            <argument type="service" id="page_builder_config"/>
+            <argument type="service" id="page_builder_dal"/>
+            <argument type="service" id="meta_box_utils"/>
+        </service>
+        <service id="page_builder_manager" class="Arkfield\PageBuilder\Page_Builder_Manager">
+            <argument type="service" id="page_builder_config"/>
+            <argument type="service" id="page_builder_dal"/>
+            <argument type="service" id="page_builder_meta_box"/>
+            <argument type="service" id="meta_box_utils"/>
+            <argument type="service" id="project_dal"/>
+        </service>
+        <service id="page_builder_utils" class="Arkfield\PageBuilder\Page_Builder_Utils">
+            <argument type="service" id="page_builder_config"/>
+            <argument type="service" id="page_builder_dal"/>
+            <argument type="service" id="utils"/>
+            <argument type="service" id="project_dal"/>
+        </service>
+
+        <service id="custom_walker_comment" class="Arkfield\Site\Blog\Custom_Walker_Comment"/>
+        <service id="blog_config" class="Arkfield\Site\Blog\Blog_Config"/>
+        <service id="blog_dal" class="Arkfield\Site\Blog\Blog_DAL"/>
+        <service id="blog_utils" class="Arkfield\Site\Blog\Blog_Utils">
+            <argument type="service" id="blog_config"/>
+            <argument type="service" id="blog_dal"/>
+            <argument type="service" id="theme_options_utils"/>
+        </service>
+        <service id="blog_manager" class="Arkfield\Site\Blog\Blog_Manager">
+            <argument type="service" id="blog_config"/>
+        </service>
+
+        <service id="site_customizer" class="Arkfield\Site\Site_Customizer">
+            <argument type="service" id="utils"/>
+        </service>
+
+        <service id="woo_commerce_utils" class="Arkfield\WooCommerce\Woo_Commerce_Utils"/>
+        <service id="woo_commerce_settings" class="Arkfield\WooCommerce\Woo_Commerce_Settings"/>
+
+        <service id="woo_commerce_setup" class="Arkfield\WooCommerce\Woo_Commerce_Setup">
+            <argument type="service" id="utils"/>
+            <argument type="service" id="woo_commerce_settings"/>
+            <argument type="service" id="woo_commerce_utils"/>
+        </service>
+
+        <service id="theme_setup" class="Arkfield\Setup\Theme_Setup">
+            <argument type="service" id="theme_options_utils"/>
+        </service>
+
+        <service id="post_config" class="Arkfield\Admin\Post\Post_Config"/>
+        <service id="post_utils" class="Arkfield\Admin\Post\Post_Utils"/>
+
+        <service id="post_setup" class="Arkfield\Admin\Post\Post_Setup">
+            <argument type="service" id="post_config"/>
+            <argument type="service" id="meta_box_utils"/>
+        </service>
+
+        <service id="bootstrap" class="Arkfield\Setup\Bootstrap">
+            <call method="set_theme_setup">
+                <argument type="service" id="theme_setup"/>
+            </call>
+            <call method="set_project_register">
+                <argument type="service" id="project_register"/>
+            </call>
+            <call method="set_theme_options_manager">
+                <argument type="service" id="theme_options_manager"/>
+            </call>
+            <call method="set_plugins_register">
+                <argument type="service" id="plugins_register"/>
+            </call>
+            <call method="set_page_builder_manager">
+                <argument type="service" id="page_builder_manager"/>
+            </call>
+            <call method="set_mce_manager">
+                <argument type="service" id="mce_manager"/>
+            </call>
+            <call method="set_pixcodes">
+                <argument type="service" id="pixcodes"/>
+            </call>
+            <call method="set_site_customizer">
+                <argument type="service" id="site_customizer"/>
+            </call>
+            <call method="set_blog_manager">
+                <argument type="service" id="blog_manager"/>
+            </call>
+            <call method="set_woo_commerce_setup">
+                <argument type="service" id="woo_commerce_setup"/>
+            </call>
+            <call method="set_post_setup">
+                <argument type="service" id="post_setup"/>
+            </call>
+        </service>
+
+        <service id="back_compat" class="Arkfield\Misc\Back_Compat"/>
+
+    </services>
+</container>

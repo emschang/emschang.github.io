@@ -1,0 +1,148 @@
+/*------------------------------------*\
+    $PROJECTS
+\*------------------------------------*/
+.mesh {
+  margin: 0 auto;
+
+  @include transition(all 0.7s);
+
+    .wp-post-image {
+      @extend %img-max;
+
+      height: auto;
+      width: auto;
+    }
+}
+
+  .mesh--two-columns {
+
+    .mesh__item {
+
+      @include media-query(desk) {
+        width: 50%;
+      }
+    }
+  }
+
+  .mesh--three-columns {
+
+    .mesh__item {
+
+      @include media-query(desk) {
+        width: 33.33%;
+      }
+    }
+  }
+
+  .mesh--fullgrid {
+    overflow: visible!important; // fullgrid speed
+
+    .mesh__item {
+
+      @include media-query(desk) {
+        width: 25%;
+      }
+    }
+  }
+
+  .mesh--classic,
+  .mesh--multiple {
+    clear: both;
+
+    max-width: $content-all;
+  }
+
+  .mesh--classic {
+
+    .mesh__item {
+
+      @include media-query(desk) {
+        width: 33.3%;
+      }
+    }
+  }
+
+  .mesh--multiple {
+
+    .mesh__item {
+
+      @include media-query(desk) {
+        width: 25%;
+      }
+    }
+  }
+
+  .mesh__item {
+    padding-right: 2px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+
+    overflow: hidden;
+
+    &:after {
+      right: 2px;
+      bottom: 4px;
+      left: 2px;
+    }
+
+    @include media-query(palm) {
+      width: 100%;
+    }
+
+    @include media-query(lap) {
+      width: 50%;
+    }
+  }
+
+    .mesh__item__link {
+      @extend %item--after;
+
+      display: block;
+    }
+
+    .mesh__item__link:hover:after {
+      opacity: 0.9;
+    }
+
+        .mesh__item__image {
+          width: 100%;
+        }
+
+        .mesh__item__header {
+          @extend %item--header;
+        }
+
+          .mesh__item__header__title {
+            @extend %item--title;
+          }
+
+          .mesh__item__header__subtitle {
+            @extend %item--subtitle;
+          }
+
+    .mesh__item__link:hover .mesh__item__header {
+       opacity: 1;
+     }
+
+      .mesh__item__link:hover .mesh__item__header__title {
+        @include translateY(0);
+      }
+
+      .mesh__item__link:hover .mesh__item__header__subtitle {
+        @include translateY(0);
+      }
+
+
+/*------------------------------------*\
+    $SINGLE PROJECT
+\*------------------------------------*/
+.single-pikart-project {
+
+  .site-main--single {
+    padding-top: 1px;
+
+    .page-builder--fullscreen {
+      margin-bottom: $_lh*3rem;
+    }
+  }
+}

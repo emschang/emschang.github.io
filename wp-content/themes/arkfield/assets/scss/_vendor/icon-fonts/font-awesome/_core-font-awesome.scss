@@ -1,0 +1,17 @@
+/*----------------------------------------*\
+    CUSTOM FONTAWESOME STYLE
+\*----------------------------------------*/
+.#{$fa-css-prefix},
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  display: inline-block;
+
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+
+  text-rendering: auto;
+  transform: translate(0, 0);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

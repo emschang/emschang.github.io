@@ -1,0 +1,39 @@
+/*------------------------------------*\
+    $CONTACT FORM
+\*------------------------------------*/
+.wpcf7-form {
+  @extend .cf;
+
+  .blog-form-input {
+    outline: none;
+  }
+
+    input[type='text'],
+    input[type='email'],
+    input[type='url'],
+    textarea {
+      width: 100%;
+    }
+
+  .comment-form-submit {
+    margin-bottom: 0;
+    padding-top: $_lh*2.25rem;
+  }
+
+  input[type='submit'] {
+    @extend %pikode--btn;
+    @extend %btn--large;
+    @extend %btn--gamma;
+
+    margin-bottom: 0;
+  }
+}
+
+  .wpcf7-response-output {
+    margin-right: 0!important;
+    margin-left: 0!important;
+  }
+
+.ajax-loader {
+  display: none;
+}

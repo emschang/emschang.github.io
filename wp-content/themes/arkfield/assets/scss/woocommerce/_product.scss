@@ -1,0 +1,341 @@
+/*------------------------------------------------*\
+               $SINGLE PRODUCT
+\*------------------------------------------------*/
+.woocommerce {
+
+  div.product {
+
+    .woocommerce-tabs {
+
+      ul.tabs {
+        padding: 0;
+
+        &:before {
+          content: none;
+        }
+
+        li {
+          border: 0;
+          border-radius: 0;
+          margin: 0 0 0 -5px;
+          padding: 0;
+
+          background: $transparent;
+
+          &:before,
+          &:after {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+      .wc-tabs {
+
+        li {
+
+          &.active a {
+            color: $white!important;
+          }
+        }
+      }
+
+        .woocommerce div.product .woocommerce-tabs ul.tabs li {
+
+          @include media-query(palm) {
+            margin: 0;
+          }
+        }
+
+          .wc-tabs__link {
+            @extend %btn--gamma;
+            @extend %btn--large;
+
+            position: relative;
+
+            border-bottom: 1px solid $light;
+            padding: 0 1.71em!important;
+
+            font-weight: 300!important;
+
+            letter-spacing: $_bsu48;
+            text-transform: uppercase;
+
+            @include transition(all 0.3s ease);
+
+            @include media-query(desk) {
+              &:before {
+                content: '';
+
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+
+                height: 0;
+                width: 100%;
+
+                @include transition(all 0.3s ease);
+              }
+
+              &:hover {
+                color: $white!important;
+
+                &:before {
+                  height: 100%;
+                }
+              }
+            }
+          }
+
+.single-product {
+
+  .mesh__item__header {
+    bottom: $_lh*0.5rem;
+
+    padding: 0 $_lh*1rem;
+  }
+
+  .mesh__item__header__title {
+    margin-bottom: 0;
+
+    font-size: $h3-size;
+  }
+
+  .mesh__item__header__subtitle {
+    color: $white!important;
+  }
+}
+      .related__title {
+        margin-bottom: $_lh*1rem;
+
+        font-weight: 400;
+      }
+
+  .woocommerce .woocommerce-message,
+  .woocommerce .woocommerce-error {
+    border: 1px solid $gray;
+    padding-left: 2em!important;
+
+    background: $transparent;
+
+    &:before {
+      content: none;
+    }
+
+    .button {
+      color: $white;
+
+      font-weight: 300;
+
+      text-transform: uppercase;
+
+      @include transition(all 0.3s ease);
+
+      &:hover,
+      &:focus {
+        background: $light;
+        color: $dark;
+      }
+    }
+  }
+
+  .woocommerce div.product div.summary {
+    margin-bottom: $_lh*2rem;
+  }
+
+    .product-status {
+      position: absolute;
+      top: $_lh*1rem;
+      z-index: 1;
+    }
+
+      %product-status-button {
+        @extend %btn--small;
+
+        display: table;
+
+        left: 0;
+
+        min-height: 1px;
+        border-radius: 0;
+
+        color: $white;
+
+        font-weight: 300;
+
+        text-transform: uppercase;
+      }
+
+      .woocommerce span.onsale,
+      .woocommerce-products span.onsale {
+        @extend %product-status-button;
+
+        position: relative;
+        top: 0;
+
+        margin-bottom: 5px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        font-size: $base-font-size;
+      }
+
+      .woocommerce-out-stock {
+        @extend %product-status-button;
+      }
+
+    .woocommerce-tabs {
+      margin-bottom: $_lh*3rem;
+    }
+
+    .product_meta {
+
+      &>span {
+        display: block;
+      }
+    }
+
+      .product_meta__title {
+        font-weight: 700;
+      }
+
+    .woocommerce div.product form.cart div.quantity {
+      margin-right: 8px;
+    }
+
+      .woocommerce.single-product .quantity .qty {
+        width: 2.8em;
+        border: 1px solid $gray;
+        border-radius: $button-radius;
+        padding: 0.35rem;
+
+        font-weight: 300;
+      }
+
+    .woocommerce button.button.alt {
+      @extend %btn--small;
+
+      border-radius: $button-radius;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      font-weight: 300;
+
+      outline: none;
+      text-transform: uppercase;
+
+      @include transition(all 0.3s ease);
+
+      &:hover,
+      &:focus {
+        background: $light;
+        color: $dark;
+      }
+    }
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.woocommerce .woocommerce-product-rating,
+.woocommerce-product-price {
+  border-bottom: 1px solid $light;
+  margin-bottom: $_lh*0.5rem!important;
+  padding-bottom: $_lh*0.5rem;
+}
+
+  .woocommerce .star-rating span {
+    color: $gray;
+  }
+
+  .price {
+    margin-bottom: 0;
+
+    ins {
+      border: 0;
+
+      font-weight: 400!important;
+    }
+  }
+
+.woocommerce-product-price {
+
+  .price {
+    color: $dark!important;
+  }
+}
+
+.woocommerce div.product form.cart {
+  border-bottom: 1px solid $light;
+  margin-bottom: $_lh*1rem!important;
+  padding-bottom: $_lh*1rem;
+}
+
+#reviews {
+
+  #comments {
+    margin-bottom: $_lh*2rem;
+  }
+
+    #reply-title {
+      margin-bottom: $_lh*2rem;
+
+      small {
+        display: none;
+      }
+    }
+
+      .comment-body__bar {
+        height: 50px;
+        padding: 0 1.75rem;
+      }
+        .comment-author {
+          color: $black;
+        }
+
+        .comment-author,
+        .comment-meta {
+          font-size: $base-font-size;
+        }
+
+      .description {
+        margin-left: 1.75rem;
+      }
+}
+
+      .woocommerce #review_form #respond p {
+        margin: 0 0 $_lh*0.75rem 0;
+      }
+
+      #rating {
+        float: left;
+
+        border: 1px solid $gray;
+        border-radius: 0;
+        margin-bottom: $_lh*0.75rem;
+        padding: 0.7rem;
+
+        background: none;
+        color: $gray;
+
+        -webkit-appearance: none;
+
+        &:-moz-focusring {
+          color: $transparent;
+
+          text-shadow: 0 0 0 #000;
+        }
+
+        @include media-query(portable) {
+          width: 100%;
+        }
+
+        @include media-query(desk) {
+          width: 32%;
+        }
+      }

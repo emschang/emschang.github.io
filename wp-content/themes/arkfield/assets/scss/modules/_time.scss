@@ -1,0 +1,33 @@
+/*------------------------------------*\
+    $TIME
+\*------------------------------------*/
+.time-container {
+  padding-left: $_lh*1.5rem;
+
+  color: $dark;
+
+  font-weight: 300;
+
+  overflow: hidden;
+}
+
+  .day {
+    padding-right: $_lh*0.5rem;
+
+    font-size: $h1-size;
+  }
+
+  .month,
+  .year {
+    font-size: $h4-size;
+
+    letter-spacing: $_bsu48;
+    text-transform: uppercase;
+  }
+
+  .month {
+
+    &:after {
+      content: ' /';
+    }
+  }

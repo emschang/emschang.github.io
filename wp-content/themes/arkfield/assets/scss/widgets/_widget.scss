@@ -1,0 +1,51 @@
+/*------------------------------------------------*\
+               $WIDGET AREA
+\*------------------------------------------------*/
+.widget-item {
+  @extend .pull-left;
+
+  min-height: 1px;
+  margin-bottom: 5rem;
+
+  @include media-query(palm) {
+    width: 100%!important;
+    padding: 0 $_lh*1rem;
+  }
+
+  @include media-query(lap) {
+    width: 50%!important;
+    padding: 0 $_lh*1rem;
+
+    &:nth-child(2n+1) {
+      clear: both;
+    }
+  }
+
+  @include media-query(desk) {
+    border-right: 1px solid $lightest;
+    padding: 0 $_lh*1.7rem;
+  }
+
+  h4 {
+    color: $white;
+  }
+
+  li {
+    padding-bottom: 5px;
+
+    color: $light;
+  }
+
+    a {
+      display: table;
+
+      color: $light;
+
+      @include transition(all 0.3s);
+
+      &:hover,
+      &:focus {
+        opacity: 0.3;
+      }
+    }
+}

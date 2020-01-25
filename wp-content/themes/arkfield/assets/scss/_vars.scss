@@ -1,0 +1,110 @@
+/*------------------------------------*\
+    VARS.SCSS - $OVERRIDES
+\*------------------------------------*/
+/**
+ * Declare here variables you want tot use for your theme.
+ * inuit.css ignores its own variables in order to use your
+ * own, so you can completely modify how inuit.css works
+ * without ever having to alter the framework itself.
+ */
+
+
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+$base-font-size:      16px;
+$base-line-height:    28px;
+$line-height-ratio:   $base-line-height / $base-font-size;        // 1.75
+$_bsu:                24px;                                       // 24px
+
+$content-text:        840px;
+$content-all:         1200px;
+
+
+/*------------------------------------*\
+    $BASE SPACING UNITS
+\*------------------------------------*/
+$_bsu48:              $_bsu / 48;                                 // 0.5px
+$_bsu16:              $_bsu / 16;                                 // 1.5px
+$_bsu8:               $_bsu / 8;                                  // 3px
+$_bsu4:               $_bsu / 4;                                  // 6px
+$_bsu3:               $_bsu / 3;                                  // 8px
+$_bsu24:              $_bsu / 2.4;                                // 10px
+$_bsu2:               $_bsu / 2;                                  // 12px
+$_bsu17:              $_bsu / 1.7;                                // 14px
+$_bsu15:              $_bsu / 1.5;                                // 16px
+$_bsu12:              $_bsu / 1.2;                                // 20px
+$_125bsu:             1.25 * $_bsu;                               // 30px
+$_15bsu:              1.5 * $_bsu;                                // 36px
+$_2bsu:               2 * $_bsu;                                  // 48px
+$_3bsu:               3 * $_bsu;                                  // 72px
+$_4bsu:               4 * $_bsu;                                  // 96px
+
+$_lh:                 $line-height-ratio;                         // 1.75
+$_lh14:               $_lh / 1.4;                                 // 1.25
+$_lh2:                $_lh / 2;                                   // 0.875
+
+
+/*------------------------------------*\
+    $BRAND
+\*------------------------------------*/
+$brand-round:         40px;
+
+
+/*------------------------------------*\
+    $COLORS
+\*------------------------------------*/
+$white:               #fff;
+
+$lightest:            rgba(255, 255, 255, 0.15); // footer
+
+$light:               #ebebeb;
+$gray:                #acacac;
+$dark:                #363636;
+
+$feature:             #333540;
+
+$black:               #000;
+
+$transparent:         rgba(0, 0, 0, 0);
+
+
+/*------------------------------------*\
+    $FONTS
+\*------------------------------------*/
+$base-font-family:    "Open Sans", sans-serif;
+$heading-font-family: "Oswald", sans-serif;
+$icon-font-family:    "FontAwesome";
+
+
+/*------------------------------------*\
+    $HEADING SIZES
+\*------------------------------------*/
+$h1-size:             36px;                                       // .alpha
+$h2-size:             24px;                                       // .beta
+$h3-size:             20px;                                       // .gamma
+$h4-size:             18px;                                       // .delta
+$h5-size:             16px;                                       // .epsilon
+$h6-size:             14px;                                       // .zeta
+
+
+/*------------------------------------*\
+    $OBJECTS
+\*------------------------------------*/
+$use-flexbox:         true;
+$use-beautons:        true;
+
+
+/*------------------------------------*\
+    $HEADING SIZES
+\*------------------------------------*/
+$button-radius:       6px;
+
+
+/*------------------------------------*\
+    $VIEWPORT BREAKPOINTS
+\*------------------------------------*/
+$responsive:          true;
+$lap-start:           601px;
+$desk-start:          1025px;
+$desk-wide-start:     1800px;

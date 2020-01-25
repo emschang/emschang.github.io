@@ -1,0 +1,27 @@
+/*------------------------------------------------*\
+               $TAGS WIDGET
+\*------------------------------------------------*/
+.tagcloud {
+  @extend %taxonomies;
+
+  a {
+    display: inline-block!important;
+    opacity: 1;
+
+    margin-right: 0.3rem;
+
+    color: $light;
+
+    font-size: $_bsu17!important;
+
+    &:hover,
+    &:focus {
+      opacity: 1!important;
+
+      border: 1px solid $transparent;
+
+      background: $white;
+      color: $dark;
+    }
+  }
+}

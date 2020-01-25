@@ -1,0 +1,76 @@
+/*------------------------------------------------*\
+               $CHECKOUT
+\*------------------------------------------------*/
+.woocommerce .woocommerce-info {
+  border: 1px solid $gray;
+  padding-left: 2em!important;
+
+  background: none;
+
+  &:before {
+    content: none;
+  }
+
+  .showlogin,
+  .showcoupon {
+    border-bottom: 1px solid $gray;
+  }
+}
+
+  .woocommerce table.shop_table tfoot td,
+  .woocommerce table.shop_table tfoot th {
+    border-color: $gray;
+  }
+
+  #customer_details {
+    margin-bottom: $_lh*2rem;
+  }
+
+  .select2-container .select2-choice {
+    border-color: $gray;
+    border-radius: 0;
+    padding: 0.5rem;
+  }
+
+  .woocommerce form .form-row textarea {
+    padding: 0.5rem;
+  }
+
+  .woocommerce input.button.alt {
+
+    @include transition(all 0.3s ease);
+
+    &:hover,
+    &:focus {
+      background: $light;
+      color: $dark;
+    }
+  }
+
+.woocommerce-checkout #payment ul.payment_methods li input,
+.payment_methods label {
+  display: inline-block;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li img {
+  display: inline-block;
+
+  height: 30px;
+  width: auto;
+  margin-left: $_lh*1rem;
+}
+
+#payment_method_paypal {
+  position: relative;
+  top: 18px;
+
+  vertical-align: top;
+}
+
+.woocommerce-checkout #payment .payment_method_paypal .about_paypal {
+  display: inline-block;
+
+  float: none;
+
+  margin-left: $_lh*0.5rem;
+}

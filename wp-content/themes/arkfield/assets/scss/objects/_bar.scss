@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    $PROGRESS BARS
+\*------------------------------------*/
+.progressbar__title {
+  margin-top: $_lh*1rem;
+}
+
+.progressbar__full {
+  display: flex;
+  display: -webkit-flex;
+
+  height: $_lh*0.9rem;
+  width: 99.5%;
+  border: 1px solid $light;
+
+  overflow: hidden;
+
+  @include border-radius($button-radius);
+  @include box-sizing(content-box);
+}
+
+  .progressbar__progress {
+    width: 0;
+
+    @include box-sizing(content-box);
+  }
+
+  .progressbar__number {
+    position: relative;
+    left: -24px;
+
+    width: 0;
+    margin: 0;
+
+    color: $white;
+
+    letter-spacing: 0;
+    line-height: $_lh*0.9rem;
+    word-wrap: normal;
+
+    &:after {
+      content: '';
+
+      margin-left: 1px;
+    }
+  }

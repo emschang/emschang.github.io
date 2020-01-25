@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    $POST FORMATS
+\*------------------------------------*/
+.mejs-controls .mejs-button button:focus {
+  outline: none!important;
+}
+
+.mejs-container:focus,
+.mejs-container *:focus {
+  outline: none!important;
+}

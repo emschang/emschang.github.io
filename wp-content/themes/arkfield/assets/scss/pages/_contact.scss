@@ -1,0 +1,12 @@
+/*------------------------------------*\
+    $CONTACT
+\*------------------------------------*/
+.page-builder--gmap {
+  height: 450px;
+  width: 100%;
+  margin-bottom: $_lh*2rem;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}

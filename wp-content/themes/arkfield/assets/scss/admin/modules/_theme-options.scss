@@ -1,0 +1,196 @@
+/*------------------------------------*\
+    $THEME OPTIONS
+\*------------------------------------*/
+#accordion-section-themes {
+
+  .accordion-section-title {
+    text-transform: uppercase;
+
+    span {
+      text-transform: none;
+    }
+  }
+}
+
+#accordion-panel-arkfield_panel_general {
+
+  .customize-control {
+
+    select {
+      height: 32px;
+      width: 100%;
+      border-radius: 3px;
+
+      @include box-shadow(inset 0px -16px 60px -32px rgba(0, 0, 0, 0.2));
+      @include transition(all 0.5s ease);
+
+      &:focus {
+        border: 1px solid #ddd;
+        outline: none;
+      }
+    }
+
+    input[type='number'],
+    input[type='text'] {
+      @include box-shadow(none);
+      @include transition(all 0.5s ease);
+
+      &:focus {
+        border: 1px solid #bbb;
+      }
+    }
+  }
+
+    .customize-control-title {
+      display: table;
+    }
+}
+
+
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
+  #accordion-section-arkfield_section_header {
+
+    .customize-control {
+      margin-bottom: 24px;
+    }
+  }
+
+    #customize-control-arkfield_setting_logo_image {
+
+      .actions {
+        margin-bottom: 0;
+      }
+
+      .container {
+        min-height: 0;
+        border: none;
+      }
+
+        .placeholder {
+          display: none;
+        }
+
+      // WORDPRESS 4.0 FIXIES
+      .customize-image-picker {
+
+        .actions a {
+          @extend %btn--admin;
+
+          float: left;
+        }
+      }
+        .library {
+
+          ul {
+            display: none;
+          }
+
+          img {
+            max-height: 100%;
+          }
+        }
+
+          .dropdown {
+            @extend %btn--admin;
+          }
+
+            .dropdown-content {
+              border: none;
+
+              line-height: 18px;
+
+              img {
+                max-height: 100%;
+                max-width: 100%;
+              }
+            }
+
+              .dropdown-status {
+                background: $transparent;
+              }
+
+            .dropdown-arrow {
+              top: 4px;
+
+              background: $transparent;
+            }
+      //
+    }
+
+      #arkfield_setting_logo_image-button {
+        float: left;
+      }
+
+    #customize-control-arkfield_setting_logo_dimension {
+
+      input[type='range'] {
+        height: 30px;
+        width: 100%;
+        background: $transparent;
+      }
+    }
+
+
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
+#customize-control-arkfield_setting_footer_widgets_columns {
+  margin-bottom: 24px;
+}
+
+
+/*------------------------------------*\
+    TYPOGRAPHY
+\*------------------------------------*/
+    #customize-control-arkfield_setting_heading_line_height,
+    #customize-control-arkfield_setting_text_font_size,
+    #customize-control-arkfield_setting_text_line_height,
+    #customize-control-arkfield_setting_letter_spacing {
+      float: right;
+
+      width: 90%;
+
+      .customize-control-title {
+        opacity: 0.7;
+
+        font-size: 12px;
+      }
+    }
+
+    #customize-control-arkfield_setting_add_google_font {
+
+      input {
+        @extend %btn--admin;
+      }
+
+      span {
+        display: block;
+        opacity: 0.7;
+
+        margin-top: 6px;
+
+        font-style: italic;
+      }
+    }
+
+
+/*------------------------------------*\
+    DIARY
+\*------------------------------------*/
+    #accordion-section-arkfield_section_diary {
+
+      .customize-control {
+        margin-bottom: 24px;
+      }
+    }
+
+      #customize-control-arkfield_setting_posts_speed {
+        font-size: 14px;
+        font-weight: 700;
+
+        .description {
+          font-weight: 400;
+        }
+      }

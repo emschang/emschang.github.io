@@ -1,0 +1,220 @@
+/*------------------------------------------------*\
+               $SHOP
+\*------------------------------------------------*/
+.woocommerce {
+
+  .main__header {
+    margin-bottom: $_lh*4rem;
+
+    &>h1 {
+      margin-top: $_lh*3rem;
+
+      text-align: center;
+    }
+  }
+}
+
+  .mesh__filter--shop {
+    margin-bottom: $_lh*1rem;
+  }
+
+  .woocommerce-products {
+    margin-right: -1.5rem;
+
+    .product {
+      padding-right: 1.5rem;
+      margin-bottom: 1.5rem;
+
+      img {
+        @extend %img;
+      }
+
+      @include media-query(palm) {
+        width: 100%;
+      }
+
+      @include media-query(lap) {
+        width: 50%;
+      }
+
+      @include media-query(desk) {
+        width: 33.3%;
+      }
+    }
+  }
+
+    .product__image {
+      display: block;
+
+      position: relative;
+    }
+
+    .product__image--bottom {
+      position: relative;
+
+      height: 5rem;
+      width: 100.1%;
+      margin-top: 3px;
+
+      background: $light;
+    }
+
+      .product__image--bottom__view {
+        width: 5rem;
+        border-left: 3px solid $white;
+
+        font-size: $_15bsu;
+        font-weight: 300;
+
+        line-height: 1;
+        text-align: center;
+
+        @include transition(all 0.5s ease);
+
+        &:hover,
+        &:focus {
+          color: $white;
+        }
+      }
+
+      .product__image--bottom__cart,
+      .added_to_cart {
+        padding-left: $_lh*1.5rem;
+
+        color: $dark;
+
+        font-size: $h4-size;
+        font-weight: 300;
+
+        overflow: hidden;
+        text-transform: uppercase;
+
+        @include transition(all 0.5s ease);
+
+        &:hover,
+        &:focus {
+          color: $white;
+        }
+
+        .star-rating {
+          float: none;
+        }
+      }
+
+      .product__image--bottom__cart {
+        position: relative;
+      }
+
+      .flexbox__item--refresh {
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        padding-left: $_lh*1.5rem;
+
+        @include transform(translateY(-50%));
+
+        .icon-refresh {
+          display: table;
+
+          line-height: 1;
+
+          @-webkit-keyframes rotateSpinner {
+            0% {
+              @include transform(rotate(0deg));
+            }
+
+            100% {
+              @include transform(rotate(360deg));
+            }
+          }
+
+          @keyframes rotateSpinner {
+            0% {
+              @include transform(rotate(0deg));
+            }
+
+            100% {
+              @include transform(rotate(360deg));
+            }
+          }
+
+          @include animation(rotateSpinner 1.2s linear infinite);
+        }
+      }
+
+      %added_to_cart,
+      .woocommerce a.added_to_cart {
+        display: table-cell;
+
+        padding-top: 0;
+
+        vertical-align: middle;
+      }
+
+      .page-builder--products {
+
+        .added_to_cart {
+          @extend %added_to_cart;
+        }
+      }
+
+      .woocommerce .woocommerce-ordering,
+      .woocommerce-page .woocommerce-ordering {
+        float: none;
+
+        text-align: center;
+
+        select,
+        .select-temp {
+          border: none;
+          padding: 1px;
+
+          background: none;
+          color: $gray;
+
+          font-size: $h3-size;
+          font-weight: 300;
+
+          text-transform: uppercase;
+
+          @include appearance(none);
+
+          option {
+            font-weight: 300;
+          }
+        }
+      }
+
+  .woocommerce-pagination {
+    display: table;
+
+    position: relative;
+
+    margin: $_lh*3rem auto $_lh*1rem;
+  }
+
+    .woocommerce nav.woocommerce-pagination ul {
+      border: none;
+      margin: 0;
+    }
+
+      .woocommerce nav.woocommerce-pagination ul li {
+        float: none;
+
+        border: none;
+      }
+
+        .woocommerce nav.woocommerce-pagination ul li span.current {
+          border-color: $transparent;
+
+          color: $white;
+        }
+
+        .woocommerce nav.woocommerce-pagination ul li span,
+        .woocommerce nav.woocommerce-pagination ul li a {
+
+          @extend %page-numbers;
+
+          line-height: 1.7;
+        }

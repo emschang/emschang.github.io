@@ -1,0 +1,125 @@
+/*------------------------------------*\
+    $REPLY FORM
+\*------------------------------------*/
+#respond {
+  margin-top: $_lh*5rem;
+
+  .pikode--btn {
+    margin-bottom: 0;
+  }
+}
+
+  #reply-title {
+    @extend %h2;
+
+    font-size: $h2-size;
+
+    a {
+      @include transition(all 0.5s);
+
+      &:hover,
+      &:focus {
+        color: $dark;
+      }
+    }
+
+    small {
+      display: block;
+
+      margin-top: $_lh*0.3rem;
+      margin-bottom: $_lh*3rem;
+
+      font-size: $h6-size;
+      font-weight: 300;
+
+      a {
+        color: $dark;
+
+        @include transition(all 0.5s ease);
+
+        &:hover,
+        &:focus {
+          color: $gray;
+        }
+      }
+    }
+  }
+
+  %comment-form {
+    border: 1px solid $gray;
+    margin-bottom: $_lh*0.75rem;
+    padding: 0.7rem;
+
+    @include transition(all 0.5s);
+
+    &:focus {
+      border: 1px solid $dark;
+    }
+  }
+
+  .comment-form {
+
+  }
+
+    .blog-form-input {
+      @extend %comment-form;
+
+      @include media-query(palm) {
+        width: 100%;
+      }
+
+      @include media-query(lap-and-up) {
+        float: left;
+
+        width: 32%;
+      }
+    }
+
+    .comment-form-author,
+    .comment-form-email {
+      margin-right: 2%;
+    }
+
+    .logged-in-as {
+      margin-top: -$_lh*2rem;
+      margin-bottom: $_lh*2.5rem;
+
+      font-style: italic;
+
+      a {
+        text-decoration: underline;
+
+        @include transition(all 0.5s);
+
+        &:hover,
+        &:focus {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .comment-form-comment {
+      margin-bottom: $_lh*0.75rem;
+
+      textarea {
+        max-width:100%;
+        width: 100%;
+        border: 1px solid $gray;
+        padding: 0.5rem;
+
+        @include transition(all 0.5s);
+
+        &:focus {
+          border: 1px solid $dark;
+        }
+      }
+    }
+
+  .form-submit {
+    display: table;
+
+    clear: both;
+
+    margin-bottom: 0;
+    padding-top: $_lh*2.25rem;
+  }

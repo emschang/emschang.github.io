@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    $PROJECTS GALLERY
+\*------------------------------------*/
+.pikart-gallery-container {
+  display: inline;
+
+  .icon-refresh {
+    @extend %icon-refresh;
+    @include animation(rotateSpinner 1.2s linear infinite);
+  }
+}
+
+  .pikart-gallery-open,
+  .pikart-gallery-reset {
+    @extend %btn--admin;
+
+    position: relative;
+    top: 2px;
+  }
+
+  .pikart-gallery-reset {
+    margin-left: 10px;
+  }
+
+  .pikart-gallery-images {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+
+    li {
+      display: inline;
+
+      img {
+        opacity: 0.7;
+
+        height: 100px;
+        width: 100px;
+        border-radius: 20%;
+        margin: 3px;
+      }
+    }
+  }

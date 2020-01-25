@@ -1,0 +1,16 @@
+/*----------------------------------------*\
+*   ICONS FONTS
+\*----------------------------------------*/
+
+// Font Awesome 4.3.0
+$fa-css-prefix: icon;
+$fa-font-path: "assets/fonts/icon-fonts/font-awesome";
+
+// Entypo
+$fontPath: "assets/fonts/icon-fonts/entypo";
+
+// Fonts import
+@import "font-awesome/_core-font-awesome";
+
+@import "entypo/entypo";
+@import "font-awesome/scss/font-awesome";

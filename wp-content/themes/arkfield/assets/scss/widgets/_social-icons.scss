@@ -1,0 +1,34 @@
+/*------------------------------------------------*\
+               $SOCIAL ICONS WIDGET
+\*------------------------------------------------*/
+
+//SocialLinks Widget (not added yet)
+.social-nav {
+  display: table;
+
+  position: relative;
+  top: 20px;
+
+  margin: 0 auto;
+  padding: 0;
+
+  font-weight: 400;
+
+  @include translateY(-50%);
+
+  li {
+    display: inline-block;
+
+    a {
+      opacity: 0.7;
+      padding: 0 15px;
+      color: $white;
+      font-size: $_bsu;
+      @include transition(all 0.3s);
+    }
+    &:hover,
+    &:focus {
+      opacity: 0.3;
+    }
+  }
+}

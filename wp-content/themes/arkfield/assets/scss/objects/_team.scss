@@ -1,0 +1,72 @@
+/*------------------------------------*\
+    $TEAM MEMBER
+\*------------------------------------*/
+.team-member {
+  position: relative;
+
+  margin-bottom: $_lh*1rem;
+}
+
+.team-member:hover .team-member__image__container:after {
+  opacity: 0.9;
+}
+
+  .team-member__image__container {
+    @extend %item--after;
+  }
+
+    .team-member__image {
+
+      img {
+        width: 100%;
+      }
+    }
+
+  .team-member__header {
+    @extend %item--header;
+  }
+
+    .team-member__name {
+      @extend %item--title;
+    }
+
+    .team-member__position {
+      @extend %item--subtitle;
+    }
+
+    .team-member__social-links-list {
+      margin-top: $_lh*1.5rem;
+      margin-bottom: 0;
+
+      font-size: 1.2rem;
+    }
+
+      .team-member__social-link {
+        display: inline-block;
+
+        padding: 0 0.3rem;
+      }
+
+      .team-member__social-link__link {
+        color: $gray!important;
+
+        @include transition(all 0.5s ease);
+
+        &:hover,
+        &:focus {
+          color: $white!important;
+        }
+      }
+
+  .team-member:hover .team-member__header {
+    opacity: 1;
+  }
+
+    .team-member:hover .team-member__name {
+      @include translate3d(0, 0, 0);
+    }
+
+    .team-member:hover .team-member__position,
+    .team-member:hover .team-member__social-links-list {
+      @include translate3d(0, 0, 0);
+    }

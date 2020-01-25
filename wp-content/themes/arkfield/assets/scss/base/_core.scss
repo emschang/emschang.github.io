@@ -1,0 +1,89 @@
+/*------------------------------------*\
+           $WORDPRESS CORE
+\*------------------------------------*/
+%aligned-sides {
+  max-width: 50%!important;
+  margin-top: $_lh*1rem;
+  margin-bottom: $_lh*1rem;
+}
+
+.aligncenter {
+  display: block;
+
+  margin: 0 auto;
+}
+
+.alignright {
+  @extend %aligned-sides;
+
+  float:right;
+
+  margin-left: $_lh*2rem;
+}
+
+.alignleft {
+  @extend %aligned-sides;
+
+  float: left;
+
+  margin-right: $_lh*2rem;
+}
+
+.wp-caption {
+  max-width: 100%;
+  margin-bottom: $_lh*1rem;
+
+  img {
+    margin-bottom: $_lh*0.3rem;
+  }
+}
+
+.wp-caption-text,
+.gallery-caption {
+  font-size: $_bsu2;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  display: none;
+}
+
+/* Added when admin comments while logged in */
+.bypostauthor {
+  width: auto;
+}
+
+/* Sticky Plugin */
+.sticky {
+
+  .time-container,
+  .read-more {
+    color: $white;
+  }
+
+  .read-more {
+
+    &:hover,
+    &:focus {
+      background: $light;
+      color: $dark;
+    }
+  }
+}
+
+/* Wrapping content */
+p iframe {
+  height: 100%;
+  width: 100%;
+}
+
+embed {
+  max-width: 100%;
+}
+
+.page {
+
+  img {
+    @extend %img;
+  }
+}

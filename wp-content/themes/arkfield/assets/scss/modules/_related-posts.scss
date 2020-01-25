@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    $RELATED POSTS
+\*------------------------------------*/
+.related-posts-wrapper {
+  padding-top: $_lh*1rem;
+
+  h5 {
+    display: inline-block;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-weight: 400;
+  }
+}
+
+  .related-posts {
+    display: inline;
+
+    margin: 0;
+
+    li {
+      display: inline-block;
+
+      margin-bottom: $_lh*0.5rem;
+      margin-left: 0.5rem;
+
+      font-weight: 300;
+
+      letter-spacing: $_bsu48;
+      text-transform: lowercase;
+
+      a {
+        color: $dark;
+
+        @include transition(all 0.5s);
+
+        &:hover,
+        &:focus {
+          color: $gray;
+        }
+      }
+
+      &:first-child:before {
+        @extend %btn--before--after;
+
+        margin-right: 0.5rem;
+      }
+
+      &:after {
+        @extend %btn--before--after;
+
+        margin-left: 0.5rem;
+      }
+    }
+  }

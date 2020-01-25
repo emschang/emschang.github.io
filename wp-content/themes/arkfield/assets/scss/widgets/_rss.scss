@@ -1,0 +1,35 @@
+/*------------------------------------------------*\
+               $RSS
+\*------------------------------------------------*/
+.widget_rss {
+
+  li {
+    @extend .soft--bottom;
+  }
+
+  img {
+    display: none;
+  }
+
+  .article-subtitle {
+
+    .rsswidget {
+      color: $white!important;
+    }
+  }
+}
+
+  ul .rsswidget {
+    opacity: 1!important;
+
+    color: $white;
+
+    text-decoration: underline;
+
+    @include transition(all 0.5 ease);
+
+    &:hover,
+    &:focus {
+      opacity: 0.7!important;
+    }
+  }

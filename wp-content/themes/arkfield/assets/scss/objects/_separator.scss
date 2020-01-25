@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    $SEPARATOR
+\*------------------------------------*/
+.pikode--separator {
+  height: 0;
+
+  background: $transparent;
+}
+
+.separator--dotted {
+  border-bottom: 1px dotted $dark;
+}
+
+.separator--striped {
+  border-bottom: 2px solid $light;
+}

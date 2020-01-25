@@ -1,0 +1,61 @@
+{
+  "name": "pikart/arkfield",
+  "description": "wordpress theme",
+  "type": "wordpress-theme",
+  "license": "GNU General Public License v2 or later",
+  "homepage": "http://pikarthouse.com/wp/arkfield/",
+  "keywords": [
+    "white",
+    "dark",
+    "light",
+    "one-column",
+    "two-columns",
+    "three-columns",
+    "four-columns",
+    "responsive-layout",
+    "flexible-header",
+    "custom-colors",
+    "custom-menu",
+    "featured-images",
+    "post-formats",
+    "rtl-language-support",
+    "theme-options",
+    "translation-ready",
+    "photoblogging"
+  ],
+  "authors": [
+    {
+      "name": "Pikarthouse",
+      "email": "studio@pikarthouse.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "includes/vendor"
+  },
+  "autoload": {
+    "files": [
+      "includes/cache/class-application-service-container.php",
+      "includes/src/back-compat.php"
+    ],
+    "classmap": [
+      "includes/src/"
+    ]
+  },
+  "require": {
+    "php": ">=5.3",
+    "symfony/dependency-injection": "~2.7",
+    "symfony/config": "~2.7",
+    "tgmpa/tgm-plugin-activation": "~2.6",
+    "zf1/zend-registry": "~1.12",
+    "composer/installers": "~1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "email": "studio@pikarthouse.com"
+  },
+  "scripts": {
+    "post-update-cmd": "./includes/bin/generate-service-cache",
+    "post-install-cmd": "./includes/bin/generate-service-cache"
+  }
+}
